@@ -47,7 +47,7 @@ body {
     }
   }
 
-  &.left {
+  &.align-left {
     text-align: left;
 
     &:after {
@@ -55,6 +55,11 @@ body {
       transform: translateX(0);
     }
   }
+}
+
+.image {
+  display: flex;
+  justify-content: center;
 }
 
 @import "fixed-contact";

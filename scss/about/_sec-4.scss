@@ -1,0 +1,137 @@
+.sec-4 {
+  background: url("../../images/about/bg1.png") no-repeat top right / contain,
+    url("../../images/about/bg2.png") no-repeat top left / contain,
+    rgba($pink, 0.1);
+
+  display: flex;
+  align-items: stretch;
+
+  // left
+  .left {
+    background: url("../../images/about/bg3.png") no-repeat center center /
+      cover;
+    height: 671px;
+    width: 50%;
+    flex-grow: 1;
+    flex-shrink: 0;
+    position: relative;
+
+    .phone {
+      border-radius: 8px;
+      background: $white;
+      padding: 25px 27px;
+      min-width: 376px;
+      min-height: 160px;
+      position: absolute;
+      bottom: 24px;
+      right: 29px;
+
+      p {
+        background: $white;
+        color: $darkBlue;
+        font-size: 22px;
+        line-height: 26px;
+        font-weight: 500;
+        margin-bottom: 16px;
+      }
+
+      .content {
+        display: flex;
+        justify-content: flex-start;
+
+        a {
+          font-weight: 500;
+          font-size: 22px;
+          line-height: 26px;
+          color: $darkBlue;
+        }
+      }
+
+      .image {
+        width: 42px;
+        height: 42px;
+        flex-shrink: 0;
+        margin-right: 8px;
+        background: $pink;
+        border-radius: 100%;
+
+        img {
+          width: 22px;
+          height: 22px;
+        }
+      }
+    }
+  }
+  // left
+
+  // right
+  .right {
+    width: 50%;
+    padding: 75px 0 72px 49px;
+
+    & > div {
+      max-width: 500px;
+    }
+
+    .des {
+      margin: 38px 0 24px 0;
+      font-size: 16px;
+      line-height: 19px;
+      font-weight: 400;
+      color: $gray1;
+    }
+
+    .button {
+      border-radius: 8px;
+      background: $pink;
+      color: $gray3;
+      font-weight: 500;
+      font-size: 16px;
+      width: 243px;
+      height: 52px;
+      display: block;
+      display: flex;
+      justify-content: center;
+      transition: all ease .5s;
+      border: 1px solid $pink;
+      margin-top: 48px;
+
+      &:hover {
+        color: $pink;
+        background: $gray3;
+      }
+    }
+
+    .list {
+      display: flex;
+      justify-content: space-between;
+      gap: 18px;
+    }
+
+    // item
+    .item {
+      .image {
+        width: 48px;
+        height: 48px;
+        margin-bottom: 24px;
+      }
+
+      p {
+        color: $darkBlue;
+        margin-bottom: 24px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+      }
+
+      span {
+        color: $gray1;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+      }
+    }
+    // item
+  }
+  // right
+}

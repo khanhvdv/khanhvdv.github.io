@@ -1,0 +1,59 @@
+.sec-5 {
+  padding: 65px 0 69px 0;
+
+  .container {
+    flex-direction: column;
+  }
+
+  .des {
+    margin: 24px 0;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+    text-align: center;
+    color: $gray1;
+  }
+
+  .list {
+    display: flex;
+    justify-content: space-between;
+    gap: 44px;
+  }
+
+  // item
+  .item {
+    p {
+      color: $darkBlue;
+      margin-bottom: 12px;
+      font-weight: 500;
+      font-size: 22px;
+      line-height: 26px;
+    }
+
+    span {
+      color: $gray1;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      display: inline-block;
+      margin-bottom: 12px;
+    }
+
+    li {
+      margin-bottom: 13px;
+      background: url("../../images/common/caret-right.svg") no-repeat left
+        center;
+      padding-left: 20px;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      color: $gray1;
+
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+  // item
+}
