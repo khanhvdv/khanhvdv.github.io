@@ -1,0 +1,83 @@
+.knowledge {
+  padding: 41px 0 67px 0;
+
+  .container {
+    display: block;
+  }
+
+  .content {
+    padding: 48px 0 0 0;
+  }
+
+  // list
+  .list {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+    .item {
+      width: 394px;
+    }
+
+    .image {
+      border-radius: 16px;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 36px;
+    }
+
+    h3 {
+      font-weight: 500;
+      font-size: 22px;
+      line-height: 26px;
+      color: $darkBlue;
+      margin-bottom: 24px;
+    }
+
+    p {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      color: $gray1;
+    }
+
+    a {
+      display: block;
+    }
+
+    .continue {
+      margin-top: 14px;
+      display: block;
+    }
+  }
+  // list
+
+  // more
+  .more {
+    padding-top: 53px;
+
+    .button {
+      border: 1px solid $pink;
+      background: $white;
+      border-radius: 8px;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 19px;
+      color: $pink;
+      width: 147px;
+      height: 43px;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      margin: 0 auto;
+      transition: all ease 0.5s;
+
+      &:hover {
+        background: $pink;
+        color: $white;
+      }
+    }
+  }
+  // more
+}
