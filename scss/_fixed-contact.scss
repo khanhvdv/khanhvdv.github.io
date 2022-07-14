@@ -1,0 +1,63 @@
+.fixed-contact {
+  position: fixed;
+  right: 7%;
+  top: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  z-index: 100;
+
+  li {
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: flex-end;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    img {
+      width: 26px;
+      height: 26px;
+    }
+
+    a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      padding: 8px;
+      width: 42px;
+      height: 42px;
+      background: #ffafcc;
+      border-radius: 32px;
+
+      &:hover {
+        width: auto;
+        justify-content: flex-end;
+
+        p {
+          width: 100%;
+          padding-right: 5px;
+        }
+      }
+    }
+
+    p {
+      text-align: right;
+      display: inline-block;
+      width: 0%;
+      transition: width 0.5s;
+      overflow: hidden;
+
+      span {
+        display: block;
+        width: 100%;
+        font-size: 12px;
+        line-height: 14px;
+        font-weight: 600;
+        color: $white;
+      }
+    }
+  }
+}

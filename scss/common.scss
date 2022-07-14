@@ -1,0 +1,53 @@
+@import "color";
+@import "reset";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 1087px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.sec-title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  position: relative;
+  padding-bottom: 20px;
+  color: #033e8a;
+  margin: 0 auto;
+  text-align: center;
+
+  &:after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    height: 4px;
+    width: 57px;
+    background: $pink;
+    border-radius: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  &.white {
+    color: $white;
+
+    &:after {
+      background: $white;
+    }
+  }
+}
+
+@import "fixed-contact";
+@import "main-nav";
+@import "main-footer";

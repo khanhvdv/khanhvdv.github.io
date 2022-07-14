@@ -1,0 +1,114 @@
+.main-footer {
+  // top
+  .top {
+    background: $pink2;
+
+    .container {
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 46px 70px 30px;
+    }
+
+    .footer-logo {
+      width: 170px;
+      height: 165px;
+    }
+
+    .connect {
+      .title {
+        font-size: 22px;
+        line-height: 26px;
+        font-weight: 500;
+        padding-bottom: 16px;
+        position: relative;
+        color: #fff;
+        margin-bottom: 15px;
+
+        &:after {
+          content: "";
+          display: block;
+          height: 4px;
+          background: #fff;
+          width: 57px;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          border-radius: 10px;
+        }
+      }
+
+      ul {
+        li {
+          color: #fff;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 28px;
+        }
+
+        a {
+          color: #fff;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 28px;
+        }
+
+        a[href^="tel:"] {
+          font-weight: 800;
+          font-size: 22px;
+          line-height: 26px;
+        }
+      }
+
+      .sub-title {
+        margin-bottom: 11px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 28px;
+        color: $white;
+      }
+
+      .social {
+        ul {
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+        }
+
+        li {
+          width: 32px;
+          height: 32px;
+          margin-right: 8px;
+          cursor: pointer;
+
+          &:last-child {
+            margin-right: 0;
+          }
+        }
+      }
+    }
+  }
+  // top
+
+  // bottom
+  .bottom {
+    font-size: 12px;
+    font-weight: 400;
+    color: $darkBlue;
+    padding: 13px 0 14px 0;
+
+    .container {
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+
+    p,
+    span {
+      line-height: 16px;
+    }
+
+    .copyright {
+      line-height: 12px;
+    }
+  }
+  // bottom
+}
