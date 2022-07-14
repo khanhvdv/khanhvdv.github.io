@@ -105,8 +105,10 @@
     }
 
     .logo {
-      display: flex;
-      justify-content: flex-start;
+      a {
+        display: flex;
+        justify-content: flex-start;
+      }
 
       .main-logo {
         width: 76px;

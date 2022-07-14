@@ -1,0 +1,52 @@
+.breadcrumb {
+  background: linear-gradient(90deg, rgba(242, 81, 139, 0.28) 0%, $pink 100%);
+
+  .inner {
+    width: 1200px;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .page {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: $white;
+  }
+
+  .nav {
+    ul {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    a {
+      color: $white;
+    }
+
+    li {
+      position: relative;
+      padding-right: 20px;
+
+      &:after {
+        content: ">";
+        display: block;
+        position: absolute;
+        right: 6px;
+        top: 50%;
+        transform: translateY(-50%);
+        color: $white;
+      }
+
+      &:last-child {
+        padding-right: 0;
+
+        &:after {
+          display: none;
+        }
+      }
+    }
+  }
+}
