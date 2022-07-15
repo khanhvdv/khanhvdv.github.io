@@ -1,0 +1,81 @@
+.sec-2 {
+  background: url("../../images/knowledge/dash1.png") repeat-x center top/ 30%;
+  padding-top: 32px;
+
+  // list
+  .list {
+    // item
+    .item {
+      margin-bottom: 24px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      a {
+        display: flex;
+        justify-content: flex-start;
+        align-items: stretch;
+      }
+
+      .image {
+        width: 258px;
+        height: 158px;
+        margin-right: 21px;
+        flex-shrink: 0;
+      }
+
+      label {
+        color: $gray2;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        display: inline-block;
+        margin-top: 19px;
+      }
+
+      p {
+        color: $black;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        margin: 13px 0 14px 0;
+      }
+
+      span {
+        color: $gray2;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+      }
+    }
+    // item
+  }
+  // list
+
+  // more
+  .more {
+    text-align: center;
+    margin: 42px 0 40px 0;
+
+    button {
+      font-weight: 500;
+      line-height: 19px;
+      font-size: 16px;
+      color: $pink;
+      border: 1px solid $pink;
+      transition: all ease 0.5s;
+      width: 174px;
+      height: 43px;
+      border-radius: 8px;
+      background: $white;
+      cursor: pointer;
+
+      &:hover {
+        color: $white;
+        background: $pink;
+      }
+    }
+  }
+  // more
+}
