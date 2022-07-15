@@ -1,0 +1,86 @@
+.sec-1 {
+  .small-title {
+    color: $pink;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+    margin-bottom: 9px;
+  }
+
+  .big-title {
+    font-weight: 500;
+    line-height: 38px;
+    font-size: 32px;
+    color: $darkBlue;
+    margin-bottom: 26px;
+  }
+
+  // content
+  .content {
+    p {
+      color: $black;
+      font-weight: 500;
+      line-height: 20px;
+      font-size: 16px;
+    }
+
+    ul {
+      padding: 38px 0 20px 0;
+    }
+
+    li {
+      margin-bottom: 13px;
+      background: url("../../images/common/caret-right.svg") no-repeat left
+        center;
+      padding-left: 20px;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      a {
+        color: $gray1;
+      }
+    }
+  }
+  // content
+
+  // social
+  .social {
+    display: flex;
+    justify-content: space-between;
+
+    & > div {
+      display: flex;
+      justify-content: flex-start;
+    }
+
+    p {
+      color: $gray2;
+      font-size: 16px;
+      line-height: 19px;
+      font-weight: 500;
+    }
+
+    ul {
+      display: flex;
+      justify-content: flex-start;
+      gap: 8px;
+      margin-left: 10px;
+
+      a {
+        display: flex;
+        justify-content: center;
+        width: 32px;
+        height: 32px;
+        background: $pink;
+        border-radius: 100%;
+        padding: 7px;
+      }
+    }
+  }
+  // social
+}

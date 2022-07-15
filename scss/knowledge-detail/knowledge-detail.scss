@@ -1,0 +1,31 @@
+@import "../color";
+
+.knowledge-detail {
+  margin-top: 44px;
+  margin-bottom: 52px;
+
+  a {
+    display: block;
+  }
+
+  .container {
+    align-items: flex-start;
+  }
+
+  .left {
+    width: calc(100% - 348px - 19px);
+    flex-shrink: 0;
+  }
+
+  .right {
+    width: 348px;
+    margin-left: 19px;
+    flex-shrink: 0;
+  }
+
+  @import "sec-1";
+  @import "sec-2";
+  @import "sec-3";
+  @import "sec-4";
+  @import "sec-5";
+}
