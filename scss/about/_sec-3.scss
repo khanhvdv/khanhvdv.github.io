@@ -23,9 +23,23 @@
     height: 320px;
     flex-shrink: 0;
     flex-grow: 1;
+    cursor: pointer;
+    transition: all ease 0.5s;
 
-    &.active {
+    &:hover {
       background: $pink;
+
+      .image {
+        img {
+          &:first-child {
+            display: none;
+          }
+
+          &:last-child {
+            display: block;
+          }
+        }
+      }
 
       p,
       span {
@@ -37,6 +51,12 @@
       width: 64px;
       height: 64px;
       margin: 0 auto 24px auto;
+
+      img {
+        &:last-child {
+          display: none;
+        }
+      }
     }
 
     p {

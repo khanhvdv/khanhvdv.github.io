@@ -1,4 +1,13 @@
 $(document).ready(() => {
+  // scroll effect
+  if (typeof AOS !== "undefined") {
+    AOS.init({
+      duration: 500,
+      once: true,
+    })
+  }
+  // scroll effect
+
   // fixed header
   window.onscroll = function () {
     fixedHeader()
