@@ -45,6 +45,10 @@
         color: $gray1;
       }
     }
+
+    .image {
+      margin-bottom: 31px;
+    }
   }
   // content
 
@@ -52,6 +56,7 @@
   .social {
     display: flex;
     justify-content: space-between;
+    margin-top: 31px;
 
     & > div {
       display: flex;
@@ -79,6 +84,28 @@
         background: $pink;
         border-radius: 100%;
         padding: 7px;
+        border: 1px solid $white;
+
+        &:hover {
+          background: $white;
+          border-color: $pink;
+
+          img {
+            &:first-child {
+              display: none;
+            }
+
+            &:last-child {
+              display: block;
+            }
+          }
+        }
+
+        img {
+          &:last-child {
+            display: none;
+          }
+        }
       }
     }
   }
