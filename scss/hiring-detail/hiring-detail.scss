@@ -1,0 +1,60 @@
+@import "../color";
+
+.hiring-detail {
+  $width: 348px;
+  padding-bottom: 48px;
+
+  .left {
+    padding-right: 20px;
+    width: calc(100% - $width - 20px);
+  }
+
+  .right {
+    max-width: $width;
+  }
+
+  .sub-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 20px;
+  }
+
+  .content {
+    p {
+      font-size: 400;
+      font-weight: 16px;
+      line-height: 30px;
+      color: $black1;
+    }
+  }
+
+  button {
+    margin-top: 23px;
+    border-radius: 8px;
+    background: $pink;
+    border: 1px solid $pink;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: $white;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    width: 245px;
+    height: 52px;
+
+    span {
+      display: flex;
+      justify-content: center;
+      width: 24px;
+      height: 24px;
+      margin-right: 10px;
+    }
+  }
+  @import "sec-1";
+  @import "sec-2";
+  @import "sec-3";
+  @import "sec-4";
+  @import "sec-5";
+}

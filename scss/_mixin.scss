@@ -1,0 +1,51 @@
+@import "color";
+
+@mixin hotPost() {
+  padding: 39px 29px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 24px;
+
+  .small-title {
+    color: $darkBlue;
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 500;
+    margin-bottom: 30px;
+  }
+
+  // list
+  .list {
+    // item
+    .item {
+      margin-bottom: 24px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      a {
+        display: flex;
+        justify-content: flex-start;
+      }
+
+      .image {
+        width: 72px;
+        height: 56px;
+        border-radius: 4px;
+        margin-right: 24px;
+        flex-shrink: 0;
+      }
+
+      p {
+        color: $black;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: justify;
+      }
+    }
+    // item
+  }
+  // list
+}

@@ -1,0 +1,51 @@
+.sec-1 {
+  padding: 27px 0 29px 0;
+
+  h3 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 27px;
+  }
+
+  // list
+  .list {
+    background: $gray7;
+    padding: 22px 43px;
+
+    // item
+    .item {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 32px;
+      width: 100%;
+
+      span {
+        color: $gray1;
+      }
+
+      label {
+        color: $gray2;
+        display: inline-block;
+        min-width: 180px;
+        position: relative;
+        margin-right: 5px;
+
+        &:after {
+          content: ":";
+          display: block;
+          position: absolute;
+          right: 0;
+          top: 50%;
+          transform: translateY(-50%);
+        }
+      }
+
+      strong {
+        color: $darkBlue;
+      }
+    }
+    // item
+  }
+  // list
+}

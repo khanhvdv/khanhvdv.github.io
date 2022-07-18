@@ -1,0 +1,35 @@
+.sec-2 {
+  margin-bottom: 30px;
+
+  ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-left: 30px;
+
+    li {
+      width: calc(100% / 3 - 20px);
+      padding-left: 15px;
+      position: relative;
+      font-size: 400;
+      font-weight: 16px;
+      line-height: 30px;
+      color: $black1;
+
+      &:before {
+        content: "";
+        display: block;
+        width: 5px;
+        height: 5px;
+        border-radius: 100%;
+        background: $pink;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+      }
+    }
+  }
+}
