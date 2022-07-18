@@ -1,0 +1,15 @@
+@import "../color";
+
+.hiring {
+  padding-bottom: 36px;
+  
+  .container {
+    flex-direction: column;
+  }
+
+  .sec-title {
+    margin: 42px auto 32px 0;
+  }
+
+  @import "sec-1";
+}
