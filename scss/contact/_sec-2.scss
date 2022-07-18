@@ -1,0 +1,122 @@
+.sec-2 {
+  background: url("../../images/about/bg1.png") no-repeat top right / contain,
+    url("../../images/about/bg2.png") no-repeat top left / contain,
+    rgba($pink, 0.1);
+  padding: 76px 0 89px 0;
+
+  .container {
+    justify-content: space-between;
+  }
+
+  // left
+  .left {
+    // info
+    .info {
+      margin-top: 36px;
+
+      li {
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 36px;
+
+        label {
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 19px;
+          color: $darkBlue;
+          display: block;
+        }
+
+        a {
+          font-weight: 860;
+          font-size: 22px;
+          line-height: 26px;
+          color: $darkBlue;
+        }
+      }
+
+      .image {
+        width: 36px;
+        height: 36px;
+        background: $pink;
+        border-radius: 100%;
+        padding: 7px;
+        margin-right: 12px;
+      }
+    }
+    // info
+
+    // spcial
+    .social {
+      display: flex;
+      justify-content: flex-start;
+      
+      li {
+        margin-right: 8px;
+      }
+    }
+    // spcial
+  }
+  // left
+
+  // right
+  .right {
+    // form
+    .form {
+      background: $white;
+      border-radius: 16px;
+      padding: 56px 42px 50px 42px;
+      min-width: 638px;
+
+      .input {
+        margin-bottom: 32px;
+      }
+
+      input {
+        border: 1px solid $gray4;
+        border-radius: 4px;
+        padding: 14px 16px;
+        height: 48px;
+        width: 100%;
+
+        &::placeholder {
+          color: $gray2;
+        }
+      }
+
+      textarea {
+        border: 1px solid $gray4;
+        border-radius: 4px;
+        padding: 14px 16px;
+        width: 100%;
+        resize: none;
+        min-height: 142px;
+
+        &::placeholder {
+          color: $gray2;
+        }
+      }
+
+      button {
+        border-radius: 8px;
+        color: $white;
+        font-size: 16px;
+        line-height: 19px;
+        font-weight: 500;
+        border: 1px solid $pink;
+        transition: all ease 0.5s;
+        background: $pink;
+        width: 187px;
+        height: 52px;
+        cursor: pointer;
+
+        &:hover {
+          color: $pink;
+          background: $white;
+        }
+      }
+    }
+    // form
+  }
+  // right
+}

@@ -62,6 +62,45 @@ body {
   justify-content: center;
 }
 
+.hover-icon {
+  a {
+    &:hover {
+      .image {
+        background: $pink3;
+
+        img {
+          &:first-child {
+            display: none;
+          }
+
+          &:last-child {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+
+  .image {
+    width: 32px;
+    height: 32px;
+    background: $white;
+    border-radius: 100%;
+    position: relative;
+    transition: all ease 0.5s;
+    padding: 7px;
+    overflow: hidden;
+
+    img {
+      transition: all ease 0.5s;
+      
+      &:last-child {
+        display: none;
+      }
+    }
+  }
+}
+
 @import "fixed-contact";
 @import "main-nav";
 @import "main-footer";

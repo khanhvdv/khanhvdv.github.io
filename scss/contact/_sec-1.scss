@@ -1,0 +1,59 @@
+.sec-1 {
+  margin-top: 42px;
+
+  // list
+  .list {
+    margin-top: 43px;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 71px;
+
+    // item
+    .item {
+      padding: 51px 53px 36px 53px;
+      box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.07);
+      border-radius: 16px;
+
+      p {
+        color: $darkBlue;
+        font-weight: 500;
+        line-height: 26px;
+        font-size: 22px;
+        position: relative;
+        padding-bottom: 28px;
+        margin-bottom: 24px;
+
+        &:after {
+          content: "";
+          display: block;
+          width: 116px;
+          height: 4px;
+          background: $pink;
+          border-radius: 10px;
+          position: absolute;
+          left: 0;
+          bottom: 0;
+        }
+      }
+
+      span {
+        color: $gray1;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 26px;
+      }
+
+      a {
+        display: block;
+        margin-top: 24px;
+        color: $pink;
+        font-weight: 500;
+        line-height: 26px;
+        font-size: 22px;
+      }
+    }
+    // item
+  }
+  // list
+}

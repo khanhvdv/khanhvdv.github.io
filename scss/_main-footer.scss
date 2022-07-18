@@ -75,13 +75,47 @@
         }
 
         li {
+          margin-right: 8px;
+        }
+
+        a {
           width: 32px;
           height: 32px;
-          margin-right: 8px;
+          display: flex;
+          justify-content: center;
           cursor: pointer;
+          background: $white;
+          border-radius: 100%;
+          position: relative;
+          transition: all ease 0.5s;
+          padding: 7px;
+          overflow: hidden;
+          border: 1px solid $white;
 
           &:last-child {
             margin-right: 0;
+          }
+
+          img {
+            transition: all ease 0.5s;
+
+            &:last-child {
+              display: none;
+            }
+          }
+
+          &:hover {
+            background: $pink3;
+
+            img {
+              &:first-child {
+                display: none;
+              }
+
+              &:last-child {
+                display: block;
+              }
+            }
           }
         }
       }

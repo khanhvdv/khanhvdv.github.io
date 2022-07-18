@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/contact/contact.css" />
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
+      defer
+    ></script>
+    <script src="js/contact.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- main-header -->
+      <div class="main-header">
+        <!-- top -->
+        <div class="top">
+          <div class="container">
+            <div class="search-box">
+              <input type="text" required />
+              <div>
+                <span class="placeholder">Tìm kiếm</span>
+                <button type="submit">
+                  <img src="./images/common/mag-glass.png" alt="Search" />
+                </button>
+              </div>
+            </div>
+
+            <div class="lang">
+              <select name="lang">
+                <option value="1">Tiếng Việt</option>
+                <option value="2">Tiếng 1</option>
+                <option value="3">Tiếng 2</option>
+                <option value="4">Tiếng 3</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <!-- top -->
+
+        <!-- bottom -->
+        <div class="bottom">
+          <div class="container">
+            <!-- logo -->
+            <div class="logo">
+              <a href="/">
+                <div class="main-logo">
+                  <img src="./images/common/logo.png" alt="M&B" />
+                </div>
+                <div class="slogan">
+                  <img
+                    src="./images/common/slogan.png"
+                    alt="Trao yêu thương, gửi hi vọng"
+                  />
+                </div>
+              </a>
+            </div>
+            <!-- logo -->
+
+            <!-- main-nav -->
+            <div class="main-nav">
+              <ul>
+                <li>
+                  <a href="index.html">Trang chủ</a>
+                </li>
+                <li>
+                  <a href="about.html">Giới thiệu</a>
+                </li>
+                <li>
+                  <a href="services.html">Dịch vụ</a>
+                </li>
+                <li>
+                  <a href="products.html">Sản phẩm</a>
+                </li>
+                <li>
+                  <a href="staff.html">Nhân lực</a>
+                </li>
+                <li>
+                  <a href="knowledge.html">Kiến thức sức khoẻ</a>
+                </li>
+                <li class="active">
+                  <a href="#">Liên hệ</a>
+                </li>
+              </ul>
+            </div>
+            <!-- main-nav -->
+          </div>
+        </div>
+        <!-- bottom -->
+      </div>
+      <!-- main-header -->
+
+      <!-- breadcrumb -->
+      <div class="breadcrumb">
+        <div class="inner">
+          <div class="page">Liên hệ</div>
+
+          <div class="nav">
+            <ul>
+              <li>
+                <a href="index.html">Trang chủ</a>
+              </li>
+              <li>
+                <a href="#">Liên hệ</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- breadcrumb -->
+
+      <div class="contact">
+        <!-- sec-1 -->
+        <div class="sec-1">
+          <div class="sec-title">CÔNG TY TNHH M&B TAKECARE</div>
+          <div class="container">
+            <!-- list -->
+            <div class="list">
+              <!-- item -->
+              <div class="item">
+                <p>Trụ sở chính</p>
+                <span
+                  >Tầng 14, Tòa nhà HM Town 412 Nguyễn Thị Minh Khai, Phường 5,
+                  Quận 3, TP.HCM</span
+                >
+                <a href="#">Xem bản đồ</a>
+              </div>
+              <!-- item -->
+              <!-- item -->
+              <div class="item">
+                <p>Chi nhánh</p>
+                <span
+                  >Chung cư Thái An 3 Đường Nguyễn Văn Quá, Phường Đông Hưng
+                  Thuận, Quận 12, TP.HCM</span
+                >
+                <a href="#">Xem bản đồ</a>
+              </div>
+              <!-- item -->
+            </div>
+            <!-- list -->
+          </div>
+        </div>
+        <!-- sec-1 -->
+
+        <!-- sec-2 -->
+        <div class="sec-2">
+          <div class="container">
+            <!-- left -->
+            <div class="left">
+              <div class="sec-title align-left">Liên hệ với chúng tôi</div>
+              <ul class="info">
+                <li>
+                  <div class="image">
+                    <img src="images/common/phone.png" alt="0905083085" />
+                  </div>
+                  <div class="content">
+                    <label>Hotline</label>
+                    <a href="tel:0905083085">0905083085</a>
+                  </div>
+                </li>
+                <li>
+                  <div class="image">
+                    <img
+                      src="images/common/email.png"
+                      alt="mbtakecare@gmail.com"
+                    />
+                  </div>
+                  <div class="content">
+                    <label>Email</label>
+                    <a href="mailto:mbtakecare@gmail.com"
+                      >mbtakecare@gmail.com</a
+                    >
+                  </div>
+                </li>
+              </ul>
+              <ul class="social hover-icon">
+                <li>
+                  <a href="#">
+                    <div class="image">
+                      <img src="images/common/fb.png" alt="Facebook" />
+                      <img src="images/common/fbw.png" alt="Facebook" />
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div class="image">
+                      <img src="images/common/in.png" alt="Linkedin" />
+                      <img src="images/common/inw.png" alt="Linkedin" />
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div class="image">
+                      <img src="images/common/youtube.png" alt="Youtube" />
+                      <img src="images/common/youtubew.png" alt="Youtube" />
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div class="image">
+                      <img src="images/common/zalo.png" alt="Zalo" />
+                      <img src="images/common/zalow.png" alt="Zalo" />
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <!-- left -->
+
+            <!-- right -->
+            <div class="right">
+              <div class="form">
+                <div class="input">
+                  <input type="text" placeholder="Họ và tên" />
+                </div>
+                <div class="input">
+                  <input type="text" placeholder="Email" />
+                </div>
+                <div class="input">
+                  <textarea placeholder="Nội dung"></textarea>
+                </div>
+                <button>Gửi yêu cầu</button>
+              </div>
+            </div>
+            <!-- right -->
+          </div>
+        </div>
+        <!-- sec-2 -->
+
+        <!-- sec-3 -->
+        <div class="sec-3">
+          <div id="map" class="map"></div>
+        </div>
+        <!-- sec-3 -->
+      </div>
+
+      <!-- main-footer -->
+      <div class="main-footer">
+        <!-- top -->
+        <div class="top">
+          <div class="container">
+            <!-- logo -->
+            <div class="footer-logo">
+              <img
+                src="./images/common/footer-logo.png"
+                alt="Trao yêu thương gửi hy vọng"
+              />
+            </div>
+            <!-- logo -->
+
+            <!-- connect -->
+            <div class="connect">
+              <div class="title">Hợp tác cùng M&B</div>
+              <ul>
+                <li>
+                  <a href="#">Điều dưỡng tại nhà</a>
+                </li>
+                <li>
+                  <a href="#">Bệnh viện / Phòng khám</a>
+                </li>
+              </ul>
+            </div>
+            <div class="connect">
+              <div class="title">Hỗ trợ Khách hàng</div>
+              <ul>
+                <li>
+                  <a href="#">Câu hỏi thường gặp</a>
+                </li>
+                <li>
+                  <a href="#">Hình thức thanh toán</a>
+                </li>
+                <li>
+                  <a href="#">Chính sách bảo mật</a>
+                </li>
+              </ul>
+            </div>
+            <div class="connect">
+              <div class="title">TƯ VẤN & CSKH</div>
+              <ul>
+                <li>Hotline : <a href="tel:0905083085">0905083085</a></li>
+                <li>
+                  Email :
+                  <a href="mailto:mbtakecare@gmail.com">mbtakecare@gmail.com</a>
+                </li>
+              </ul>
+              <div class="social">
+                <div class="sub-title">KẾT NỐI VỚI CHÚNG TÔI</div>
+                <ul>
+                  <li>
+                    <a href="#">
+                      <img src="./images/common/fb.png" alt="Facebook" />
+                      <img src="./images/common/fbw.png" alt="Facebook" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="./images/common/in.png" alt="Linkedin" />
+                      <img src="./images/common/inw.png" alt="Linkedin" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="./images/common/youtube.png" alt="Youtube" />
+                      <img src="./images/common/youtubew.png" alt="Youtube" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="./images/common/zalo.png" alt="Zalo" />
+                      <img src="./images/common/zalow.png" alt="Zalo" />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- connect -->
+          </div>
+        </div>
+        <!-- top -->
+        <!-- bottom -->
+        <div class="bottom">
+          <div class="container">
+            <div class="note">
+              <p>CÔNG TY TRÁCH NHIỆM HỮU HẠN M&B TAKECARE</p>
+              <span>
+                Giấy chứng nhận đăng ký doanh nghiệp số 0315590673 do Sở KH Đầu
+                tư thành phố Hồ Chí Minh cấp ngày 27/03/2019
+              </span>
+            </div>
+            <div class="copyright">Bản Quyền©mebetakecare.com</div>
+          </div>
+        </div>
+        <!-- bottom -->
+      </div>
+      <!-- main-footer -->
+
+      <!-- fixed-contact -->
+      <div class="fixed-contact">
+        <ul>
+          <li>
+            <a href="tel:0905083085">
+              <p>
+                <span>0905083085</span>
+                <span>Zalo</span>
+              </p>
+              <img src="images/common/phone.png" alt="0905083085" />
+            </a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="images/common/messenger.png" alt="Messenger"
+            /></a>
+          </li>
+        </ul>
+      </div>
+      <!-- fixed-contact -->
+    </div>
+  </body>
+</html>
