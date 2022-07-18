@@ -21,7 +21,7 @@ $(document).ready(() => {
     autoplayHoverPause: true,
   })
 
-  const second = 1000
+  const second = 500
   const div = $("div.comments")
   div.animate(
     {
