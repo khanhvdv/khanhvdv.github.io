@@ -1,0 +1,13 @@
+.sec-2 {
+  padding-bottom: 49px;
+
+  ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    @include list(20px);
+  }
+}

@@ -1,0 +1,33 @@
+.sec-1 {
+  padding: 42px 0 55px 0;
+
+  ul {
+    margin-top: 24px;
+    background: $gray8;
+    padding: 39px 28px;
+
+    li {
+      padding-left: 25px;
+      position: relative;
+      color: $gray1;
+      margin-bottom: 16px;
+
+      &:before {
+        content: "";
+        display: block;
+        width: 12px;
+        height: 12px;
+        background: $pink;
+        border-radius: 100%;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

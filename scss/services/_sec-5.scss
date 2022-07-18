@@ -1,0 +1,12 @@
+.sec-5 {
+  @include pinkBg();
+  padding: 46px 0 35px 0;
+
+  .des {
+    margin-top: 24px;
+  }
+
+  ul {
+    @include list();
+  }
+}
