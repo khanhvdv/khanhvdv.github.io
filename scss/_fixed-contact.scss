@@ -1,6 +1,6 @@
 .fixed-contact {
   position: fixed;
-  right: 7%;
+  right: 3%;
   top: 50%;
   display: flex;
   flex-direction: column;
@@ -27,13 +27,14 @@
       align-items: center;
       height: 100%;
       padding: 8px;
-      width: 42px;
+      max-width: 42px;
       height: 42px;
-      background: #ffafcc;
+      background: $pink2;
       border-radius: 32px;
+      border: 1px solid $white;
 
       &:hover {
-        width: auto;
+        max-width: none;
         justify-content: flex-end;
 
         p {

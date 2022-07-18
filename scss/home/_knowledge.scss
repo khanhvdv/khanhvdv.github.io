@@ -22,9 +22,11 @@
     .image {
       border-radius: 16px;
       overflow: hidden;
-      display: flex;
-      justify-content: center;
-      margin-bottom: 36px;
+      width: 349px;
+      height: 289px;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: 105%;
     }
 
     h3 {

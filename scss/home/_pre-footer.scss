@@ -29,9 +29,13 @@
   }
 
   .owl-item {
-    width: 240px !important;
-    height: 246px;
+    // width: 240px !important;
+    // height: 246px;
     border-radius: 8px;
     overflow: hidden;
+    
+    .item {
+      height: 246px;
+    }
   }
 }

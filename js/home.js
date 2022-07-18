@@ -2,8 +2,13 @@ $(document).ready(() => {
   $(".owl-prefooter").owlCarousel({
     loop: true,
     autoplay: true,
-    autoWidth: true,
+    autoWidth: false,
+    autoheight: false,
     margin: 16,
+    slideTransition: "linear",
+    autoplaySpeed: 6000,
+    smartSpeed: 6000,
+    items: 5.5,
   })
 
   $(".owl-banner").owlCarousel({
@@ -16,16 +21,24 @@ $(document).ready(() => {
     autoplayHoverPause: true,
   })
 
-  const second = 1000;
-  const div = $("div.comments");
-  div.animate({
-    scrollTop: div.height(),
-  }, 30 * second)
-  div.mouseenter(() => {
-    div.stop();
-  }).mouseleave(() => {
-    div.animate({
+  const second = 1000
+  const div = $("div.comments")
+  div.animate(
+    {
       scrollTop: div.height(),
-    }, 30 * second)
-  })
+    },
+    30 * second
+  )
+  div
+    .mouseenter(() => {
+      div.stop()
+    })
+    .mouseleave(() => {
+      div.animate(
+        {
+          scrollTop: div.height(),
+        },
+        30 * second
+      )
+    })
 })

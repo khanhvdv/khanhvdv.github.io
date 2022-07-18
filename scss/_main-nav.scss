@@ -1,4 +1,35 @@
 .main-header {
+  .container {
+    width: 1200px;
+  }
+
+  // sticky
+  &.sticky {
+    .top {
+      margin-bottom: 97px;
+    }
+
+    .bottom {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 2;
+
+      .logo {
+        .main-logo {
+          height: auto;
+          width: 50px;
+        }
+
+        .slogan {
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+  // sticky
+
   // top
   .top {
     background: rgba($pink, 0.2);
@@ -99,6 +130,7 @@
   .bottom {
     padding: 4px 0 7px 0;
     border-bottom: 1px solid #f3f3f3;
+    background: $white;
 
     .container {
       justify-content: space-between;

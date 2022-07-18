@@ -368,6 +368,11 @@
         position: relative;
         z-index: 1;
         flex-shrink: 0;
+        background: $white;
+
+        img {
+          border-radius: 8px;
+        }
       }
 
       .content {

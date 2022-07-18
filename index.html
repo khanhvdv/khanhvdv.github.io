@@ -8,10 +8,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
@@ -24,12 +20,13 @@
       crossorigin="anonymous"
     ></script>
     <script src="libs/owlcarousel/owl.carousel.min.js"></script>
+    <script src="js/common.js"></script>
     <script src="js/home.js"></script>
   </head>
   <body>
     <div class="wrapper">
       <!-- main-header -->
-      <div class="main-header">
+      <div id="main-header" class="main-header">
         <!-- top -->
         <div class="top">
           <div class="container">
@@ -233,37 +230,37 @@
               <!-- bub-1 -->
               <div class="bub bub-1">
                 <span>MẸ BẦU</span>
-                <p>167</p>
+                <p class="count">167</p>
               </div>
               <!-- bub-1 -->
               <!-- bub-2 -->
               <div class="bub bub-2">
                 <span>BÉ SƠ SINH</span>
-                <p>234</p>
+                <p class="count">234</p>
               </div>
               <!-- bub-2 -->
               <!-- bub-3 -->
               <div class="bub bub-3">
                 <span>TỔNG KHÁCH HÀNG<br />VÀ HỌC VIÊN</span>
-                <strong>1454</strong>
+                <strong class="count">1454</strong>
               </div>
               <!-- bub-3 -->
               <!-- bub-4 -->
               <div class="bub bub-4">
                 <span>MẸ SAU SINH</span>
-                <p>167 +</p>
+                <p><label class="count">167</label> +</p>
               </div>
               <!-- bub-4 -->
               <!-- bub-5 -->
               <div class="bub bub-5">
-                <span>ĐÀO TẠO HỌC VIÊN</span>
-                <p>939</p>
+                <span>ĐÀO TẠO<br />HỌC VIÊN</span>
+                <p class="count">939</p>
               </div>
               <!-- bub-5 -->
               <!-- bub-6 -->
               <div class="bub bub-6">
                 <span>NGƯỜI<br />CAO TUỔI</span>
-                <p>38</p>
+                <p class="count">38</p>
               </div>
               <!-- bub-6 -->
               <div class="bub bub-7"></div>
@@ -413,9 +410,10 @@
               <!-- item -->
               <div class="item">
                 <a href="#">
-                  <div class="image">
-                    <img src="images/demo/image7.png" alt="Demo 7" />
-                  </div>
+                  <div
+                    class="image"
+                    style="background-image: url('images/demo/image7.png')"
+                  ></div>
                   <div class="context">
                     <h3>Cách chăm sóc mẹ và bé sau sinh đúng cách</h3>
                     <p>
@@ -433,9 +431,10 @@
               <!-- item -->
               <div class="item">
                 <a href="#">
-                  <div class="image">
-                    <img src="images/demo/image8.png" alt="Demo 8" />
-                  </div>
+                  <div
+                    class="image"
+                    style="background-image: url('images/demo/image8.png')"
+                  ></div>
                   <div class="context">
                     <h3>Chương trình chăm sóc sức khỏe người cao tuổi</h3>
                     <p>
@@ -453,9 +452,10 @@
               <!-- item -->
               <div class="item">
                 <a href="#">
-                  <div class="image">
-                    <img src="images/demo/image9.png" alt="Demo 9" />
-                  </div>
+                  <div
+                    class="image"
+                    style="background-image: url('images/demo/image9.png')"
+                  ></div>
                   <div class="context">
                     <h3>Sinh con trọn gói - gói trọn an tâm tại Bệnh viện</h3>
                     <p>
