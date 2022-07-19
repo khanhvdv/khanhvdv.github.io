@@ -55,3 +55,33 @@
     url("../../images/about/bg2.png") no-repeat top left / contain,
     rgba($pink, 0.1);
 }
+
+@mixin paging() {
+  ul {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+  }
+
+  a {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $pink;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    border: 1px solid $pink;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: all ease 0.5s;
+
+    &.active,
+    &:hover {
+      background: $pink;
+      color: $white;
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.sec-1 {
+  padding: 21px 0 36px 0;
+
+  form {
+    position: relative;
+    width: 100%;
+  }
+
+  input {
+    background: $gray8;
+    padding: 9px;
+    border: 0;
+    outline: 0;
+    border-radius: 100px;
+    width: 100%;
+    padding-left: 50px;
+    height: 52px;
+
+    &::placeholder {
+      color: $gray2;
+      font-style: italic;
+    }
+  }
+
+  button {
+    position: absolute;
+    background: $pink;
+    border-radius: 100%;
+    width: 32px;
+    height: 32px;
+    left: 9px;
+    top: 9px;
+    border: 0;
+    cursor: pointer;
+  }
+}

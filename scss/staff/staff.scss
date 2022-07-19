@@ -1,0 +1,13 @@
+@import "../color";
+
+.staff {
+  padding-bottom: 39px;
+
+  .container {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  @import "sec-1";
+  @import "sec-2";
+}
