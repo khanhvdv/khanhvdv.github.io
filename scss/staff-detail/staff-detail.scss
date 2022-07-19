@@ -1,0 +1,18 @@
+@import "../color";
+
+.staff-detail {
+  padding: 52px 0 35px 0;
+
+  .left {
+    width: 348px;
+    margin-right: 20px;
+    flex-shrink: 0;
+  }
+
+  .container {
+    align-items: flex-start;
+  }
+
+  @import "sec-1";
+  @import "sec-2";
+}
