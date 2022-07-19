@@ -1,0 +1,52 @@
+.sec-2 {
+  padding-bottom: 41px;
+  .sec-title {
+    margin-bottom: 48px;
+  }
+
+  .content {
+    .image {
+      margin-bottom: 46px;
+    }
+
+    p {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      color: $black;
+      margin-bottom: 32px;
+    }
+
+    span {
+      font-weight: 510;
+      font-size: 16px;
+      line-height: 19px;
+      display: block;
+      color: $darkBlue;
+      margin-bottom: 20px;
+    }
+
+    ul {
+      padding-left: 20px;
+
+      li {
+        margin-bottom: 30px;
+        padding-left: 28px;
+        position: relative;
+
+        &:before {
+          content: "";
+          display: block;
+          width: 16px;
+          height: 16px;
+          background: url("../../images/common/icon-check.png") no-repeat center
+            center/100%;
+          position: absolute;
+          left: 0;
+          top: 50%;
+          transform: translateY(-50%);
+        }
+      }
+    }
+  }
+}

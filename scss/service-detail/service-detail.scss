@@ -1,0 +1,25 @@
+@import "../color";
+
+.service-detail {
+  padding-top: 29px;
+
+  .container {
+    align-items: flex-start;
+  }
+
+  // left
+  .left {
+    width: 256px;
+    margin-right: 24px;
+    flex-shrink: 0;
+    flex-grow: 1;
+  }
+  // left
+
+  .right {
+    width: calc(100% - 256px - 24px);
+  }
+
+  @import "sec-1";
+  @import "sec-2";
+}
