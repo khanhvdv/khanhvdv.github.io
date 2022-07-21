@@ -1,0 +1,54 @@
+.sec-3 {
+  .sec-title {
+    margin-bottom: 20px;
+  }
+
+  // list
+  .list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 13px;
+    flex-wrap: wrap;
+
+    .item {
+      width: calc(100% / 4 - 13px);
+      margin-bottom: 20px;
+
+      .image {
+        margin-bottom: 15px;
+      }
+
+      label {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        display: block;
+        color: $pink;
+        margin-bottom: 4px;
+      }
+
+      p {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        color: $black;
+        margin-bottom: 8px;
+      }
+
+      span {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #cf0000;
+      }
+    }
+  }
+  // list
+
+  .paging {
+    margin-top: 6px;
+
+    @include paging();
+  }
+}
