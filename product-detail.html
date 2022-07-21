@@ -4,9 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>staff detail</title>
+    <title>product-detail</title>
+    <link rel="stylesheet" href="./libs/owlcarousel/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./libs/chocolat/chocolat.css" />
     <link rel="stylesheet" href="./css/common.css" />
-    <link rel="stylesheet" href="./css/staff-detail/staff-detail.css" />
+    <link rel="stylesheet" href="./css/product-detail/product-detail.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./libs/owlcarousel/owl.carousel.min.js"></script>
+    <script src="./libs/chocolat/chocolat.js"></script>
+    <script src="./js/product-detail.js"></script>
   </head>
   <body>
     <div class="wrapper">
@@ -68,10 +78,10 @@
                 <li>
                   <a href="services.html">Dịch vụ</a>
                 </li>
-                <li>
+                <li class="active">
                   <a href="products.html">Sản phẩm</a>
                 </li>
-                <li class="active">
+                <li>
                   <a href="staff.html">Nhân lực</a>
                 </li>
                 <li>
@@ -92,7 +102,7 @@
       <!-- breadcrumb -->
       <div class="breadcrumb">
         <div class="inner">
-          <div class="page">Nhân lực</div>
+          <div class="page">Sản phẩm</div>
 
           <div class="nav">
             <ul>
@@ -100,10 +110,10 @@
                 <a href="index.html">Trang chủ</a>
               </li>
               <li>
-                <a href="staff.html">Nhân lực</a>
+                <a href="products.html">Sản phẩm</a>
               </li>
               <li>
-                <a href="#">Trần Nguyễn Lâm Anh</a>
+                <a href="#">Muối thảo dược - eo thon dáng đẹp</a>
               </li>
             </ul>
           </div>
@@ -111,101 +121,165 @@
       </div>
       <!-- breadcrumb -->
 
-      <div class="staff-detail">
+      <div class="product-detail">
         <div class="container">
           <!-- left -->
           <div class="left">
+            <!-- sec-1 -->
             <div class="sec-1">
+              <div class="small-title">Danh mục sản phẩm</div>
+              <ul>
+                <li>
+                  <a href="#">Từ nguyên liệu thiên nhiên</a>
+                </li>
+                <li>
+                  <a href="#">Thực phẩm chức năng</a>
+                </li>
+                <li>
+                  <a href="#">Các loại tinh dầu</a>
+                </li>
+                <li>
+                  <a href="#">Khác</a>
+                </li>
+              </ul>
+            </div>
+            <!-- sec-1 -->
+
+            <!-- sec-2 -->
+            <div class="sec-2">
               <div class="image">
-                <img src="images/demo/image21.png" alt="Demo 21" />
+                <img src="images/demo/image18.png" alt="demo 18" />
               </div>
             </div>
+            <!-- sec-2 -->
           </div>
           <!-- left -->
 
           <!-- right -->
           <div class="right">
-            <div class="sec-2">
-              <div class="sec-title align-left">Trần Nguyễn Lâm Anh</div>
-              <b>Điều dưỡng viên</b>
-              <button>
-                <span
-                  ><img
-                    src="images/common/email.png"
-                    alt="Liên hệ ngay" /></span
-                >Liên hệ ngay
-              </button>
+            <div class="sec-3">
+              <!-- top -->
+              <div class="top">
+                <!-- inner-left -->
+                <div class="inner-left">
+                  <div class="product-carousel owl-carousel">
+                    <div class="image">
+                      <img src="images/demo/image22.png" alt="demo 22" />
+                    </div>
+                    <div class="image">
+                      <img src="images/demo/image21.png" alt="demo 22" />
+                    </div>
+                    <div class="image">
+                      <img src="images/demo/image22.png" alt="demo 22" />
+                    </div>
+                    <div class="image">
+                      <img src="images/demo/image21.png" alt="demo 22" />
+                    </div>
+                    <div class="image">
+                      <img src="images/demo/image22.png" alt="demo 22" />
+                    </div>
+                    <div class="image">
+                      <img src="images/demo/image21.png" alt="demo 22" />
+                    </div>
+                    <div class="image">
+                      <img src="images/demo/image22.png" alt="demo 22" />
+                    </div>
+                  </div>
+                  <div class="product-dots owl-carousel">
+                    <div class="image">
+                      <img src="images/demo/image22.png" alt="demo 22" />
+                    </div>
+                    <div class="image">
+                      <img src="images/demo/image21.png" alt="demo 22" />
+                    </div>
+                    <div class="image">
+                      <img src="images/demo/image22.png" alt="demo 22" />
+                    </div>
+                    <div class="image">
+                      <img src="images/demo/image21.png" alt="demo 22" />
+                    </div>
+                    <div class="image">
+                      <img src="images/demo/image22.png" alt="demo 22" />
+                    </div>
+                    <div class="image">
+                      <img src="images/demo/image21.png" alt="demo 22" />
+                    </div>
+                    <div class="image">
+                      <img src="images/demo/image22.png" alt="demo 22" />
+                    </div>
+                  </div>
+                </div>
+                <!-- inner-left -->
+                <!-- inner-right -->
+                <div class="inner-right">
+                  <div class="sec-title align-left">
+                    Muối thảo dược - eo thon dáng đẹp
+                  </div>
+                  <label>Từ nguyên liệu thiên nhiên</label>
+                  <p>500,000 đ/hộp</p>
+                  <button>
+                    <span class="icon"
+                      ><img src="images/common/phone.png" alt="MUA NGAY"
+                    /></span>
+                    MUA NGAY
+                  </button>
+                </div>
+                <!-- inner-right -->
+              </div>
+              <!-- top -->
+
               <!-- des -->
               <div class="des">
-                <div class="icon">
-                  <img
-                    src="images/staff-detail/icon1.png"
-                    alt="Tốt nghiệp trường "
-                  />
-                </div>
+                <div class="des-title">I. CHI TIẾT SẢN PHẨM</div>
                 <div class="content">
-                  <p>Tốt nghiệp trường</p>
-                  <span>Đại học Đại Nam (2008 - 2010)</span>
+                  <p>Hạn sử dụng: <strong>24 tháng</strong></p>
+                  <p>Thương hiệu: <strong>M&B TAKECARE</strong></p>
                 </div>
               </div>
               <!-- des -->
 
               <!-- des -->
               <div class="des">
-                <div class="icon">
-                  <img
-                    src="images/staff-detail/icon2.png"
-                    alt="Đã tham gia các khoá đào tạo"
-                  />
-                </div>
+                <div class="des-title">II. MÔ TẢ SẢN PHẨM</div>
                 <div class="content">
-                  <p>Đã tham gia các khoá đào tạo</p>
-                  <span
-                    >Khoá đào tạo Chăm sóc mẹ bầu sau sinh của
-                    <strong>M&B TAKECARE (2010 - 2011)</strong>
-                  </span>
-                  <span
-                    >Khoá đào tạo Chăm sóc người bệnh của
-                    <strong>M&B TAKECARE (2010 - 2011)</strong>
-                  </span>
+                  <p>
+                    Muối đông y là sự kết hợp theo tỷ lệ vàng của muối khoáng và
+                    các thảo dược khác giúp cho phụ nữ sau sinh cải thiện các
+                    vấn đề về da cũng như giảm mỡ bụng.
+                  </p>
+                  <strong>Công Dụng</strong>
+                  <p>Làm mềm và tan mỡ bụng</p>
+                  <p>
+                    Làm săn chắc lại vùng da bụng bị sổ, rạn, nhăn sau quá trình
+                    sinh đẻ
+                  </p>
+                  <p>Lưu thông khí huyết</p>
+                  <p>Khử sạch mụn cám, nám, tàn nhang trên da</p>
+                  <strong>Hướng Dẫn Sử Dụng</strong>
+                  <p>
+                    Trộn muối với sữa tươi, mật ong trứng và dầu olive (có thể
+                    thay thể bằng các loại dầu khác)
+                  </p>
+                  <p>Đắp hỗn hợp trên lên da và để nguyên trong 15~20’</p>
+                  <p>Rửa sạch lại với nước</p>
+                  <p>Sử dụng 2~3 lần/tuần</p>
                 </div>
               </div>
               <!-- des -->
 
               <!-- des -->
               <div class="des">
-                <div class="icon">
-                  <img src="images/staff-detail/icon3.png" alt="Kinh nghiệm" />
-                </div>
+                <div class="des-title">III. Video</div>
                 <div class="content">
-                  <p>Kinh nghiệm</p>
-                  <span
-                    >Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur.
-                  </span>
-                  <span
-                    >Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in.
-                  </span>
-                </div>
-              </div>
-              <!-- des -->
-
-              <!-- des -->
-              <div class="des">
-                <div class="icon">
-                  <img src="images/staff-detail/icon4.png" alt="Lĩnh vực chuyên sâu" />
-                </div>
-                <div class="content">
-                  <p>Lĩnh vực chuyên sâu</p>
-                  <span>Mẹ và bé sau sinh, chăm sóc người bệnh</span>
+                  <!-- <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe> -->
                 </div>
               </div>
               <!-- des -->

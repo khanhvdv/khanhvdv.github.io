@@ -1,0 +1,23 @@
+@import "../color";
+@import "../mixin";
+
+.product-detail {
+  padding: 29px 0 32px 0;
+
+  .container {
+    align-items: flex-start;
+  }
+
+  .left {
+    width: 256px;
+    margin-right: 19px;
+  }
+
+  .right {
+    width: calc(100% - 256px - 19px);
+  }
+  
+  @import "sec-1";
+  @import "sec-2";
+  @import "sec-3";
+}

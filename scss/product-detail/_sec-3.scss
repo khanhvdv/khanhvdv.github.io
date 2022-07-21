@@ -1,0 +1,127 @@
+.sec-3 {
+  .inner-left {
+    width: 349px;
+    margin-right: 20px;
+  }
+
+  .inner-right {
+    width: calc(100% - 349px - 20px);
+  }
+
+  // top
+  .top {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 31px;
+
+    .sec-title {
+      font-weight: 500;
+      font-size: 22px;
+      line-height: 26px;
+      margin-bottom: 24px;
+    }
+
+    // inner-left
+    .inner-left {
+      .product-carousel {
+        .image {
+          height: 312px;
+        }
+      }
+
+      .product-dots {
+        margin-top: 14px;
+
+        .image {
+          widtH: 81px;
+          height: 97px;
+        }
+      }
+    }
+    // inner-left
+
+    // inner-right
+    .inner-right {
+      label {
+        display: inline-block;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: $pink;
+        background: rgba(255, 175, 204, 0.1);
+        border: 1px solid $pink;
+        border-radius: 32px;
+        padding: 6px 13px;
+        margin-bottom: 24px;
+      }
+
+      p {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 38px;
+        color: #cf0000;
+        margin-bottom: 24px;
+      }
+
+      button {
+        display: flex;
+        justify-content: center;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: $gray3;
+        background: $pink;
+        border: 0;
+        border-radius: 8px;
+        width: 182px;
+        height: 52px;
+
+        .icon {
+          width: 24px;
+          height: 24px;
+          margin-right: 10px;
+        }
+      }
+    }
+    // inner-right
+  }
+  // top
+
+  // des
+  .des {
+    .des-title {
+      font-weight: 500;
+      font-size: 22px;
+      line-height: 26px;
+      color: $darkBlue;
+      padding: 11px 14px;
+      background: #f3f3f3;
+      margin-bottom: 24px;
+    }
+
+    .content {
+      padding-left: 30px;
+    }
+
+    p,
+    strong {
+      color: $black;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      margin-bottom: 21px;
+    }
+
+    p strong {
+      display: inline-block;
+      margin: 0;
+    }
+
+    strong {
+      font-weight: 700;
+      display: block;
+    }
+  }
+  // des
+}
