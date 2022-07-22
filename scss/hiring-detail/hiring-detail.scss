@@ -4,6 +4,10 @@
   $width: 348px;
   padding-bottom: 48px;
 
+  .container {
+    align-items: flex-start;
+  }
+
   .left {
     padding-right: 20px;
     width: calc(100% - $width - 20px);

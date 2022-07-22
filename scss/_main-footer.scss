@@ -13,6 +13,15 @@
       width: 170px;
       height: 165px;
       display: block;
+      flex-shrink: 0;
+      margin-right: 48px;
+    }
+
+    .connect-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      width: calc(100% - 170px - 48px);
     }
 
     .connect {

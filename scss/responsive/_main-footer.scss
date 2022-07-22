@@ -1,0 +1,64 @@
+@media screen and (max-width: 1024px) {
+  .main-footer {
+    // top
+    .top {
+      .container {
+        padding: 53px 16px 31px 16px;
+      }
+
+      .footer-logo {
+        width: 127px;
+        height: 123px;
+        margin-right: 31px;
+      }
+
+      .connect-info {
+        flex-direction: column;
+        width: calc(100% - 127px - 31px);
+      }
+
+      .connect {
+        width: 100%;
+        margin-bottom: 10px;
+
+        .title {
+          padding-bottom: 0;
+          background: url("../images/common/caret-down-w.png") no-repeat right
+            10% center/6%;
+
+          &:after {
+            display: none;
+          }
+        }
+
+        ul {
+          overflow: hidden;
+          max-height: 0;
+          transition: all ease 0.5s;
+        }
+
+        &.active {
+          ul {
+            max-height: none;
+          }
+        }
+      }
+    }
+    // top
+
+    // bottom
+    .bottom {
+      .container {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+      }
+
+      .copyright {
+        margin-top: 4px;
+      }
+    }
+    // bottom
+
+  }
+}

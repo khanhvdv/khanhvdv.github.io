@@ -9,6 +9,18 @@ $(document).ready(() => {
     autoplaySpeed: 6000,
     smartSpeed: 6000,
     items: 5.5,
+    dots: false,
+    responsive: {
+      0: {
+        items: 2,
+      },
+      320: {
+        items: 2,
+      },
+      640: {
+        items: 3,
+      }
+    }
   })
 
   $(".owl-banner").owlCarousel({
@@ -19,6 +31,8 @@ $(document).ready(() => {
     center: true,
     dots: true,
     autoplayHoverPause: true,
+    stagePadding: 0,
+    margin: 0,
   })
 
   const second = 500

@@ -1,0 +1,131 @@
+@media screen and (max-width: 1024px) {
+  .sec-2 {
+    padding: 33px 13px 28px 13px;
+
+    .container {
+      flex-direction: column;
+    }
+
+    .main-bubble {
+      width: calc(100vw - 26px);
+      height: 585px;
+
+      .bub {
+        span {
+          font-size: 14px;
+          line-height: 17px;
+        }
+
+        p {
+          font-weight: 700;
+          font-size: 22px;
+          line-height: 26px;
+        }
+
+        strong {
+          font-weight: 700;
+          font-size: 32px;
+          line-height: 38px;
+        }
+      }
+
+      .bub-1 {
+        width: 137px;
+        height: 141px;
+        top: 140px;
+        left: 0;
+      }
+
+      .bub-2 {
+        width: 137px;
+        height: 141px;
+      }
+
+      .bub-3 {
+        width: 184px;
+        height: 186px;
+        top: 0;
+        left: 25%;
+      }
+
+      .bub-4 {
+        width: 137px;
+        height: 141px;
+        top: 268px;
+        left: 20%;
+      }
+
+      .bub-5 {
+        width: 137px;
+        height: 141px;
+        top: 318px;
+        right: 12px;
+        left: auto;
+      }
+
+      .bub-6 {
+        width: 137px;
+        height: 141px;
+        left: 0;
+        top: 434px;
+      }
+
+      .bub-8 {
+        left: 50%;
+        top: 40%;
+      }
+
+      .bub-9 {
+        left: auto;
+        right: 30%;
+        top: 45%;
+      }
+
+      .bub-11 {
+        right: 16%;
+      }
+
+      .bub-13 {
+        top: 73%;
+      }
+
+      .bub-14 {
+        top: 55%;
+      }
+
+      .bub-15 {
+        right: 35%;
+      }
+
+      .bub-17 {
+        top: 80%;
+      }
+
+      .bub-18 {
+        top: 70%;
+        left: 42%;
+      }
+
+      .bub-19 {
+        left: auto;
+        right: 40%;
+        top: 90%;
+      }
+    }
+
+    .comments {
+      margin-right: 0;
+      margin-left: 0;
+
+      .item {
+        .content {
+          padding: 22px 25px 22px 113px;
+        }
+      }
+    }
+
+    .loading .stage {
+      margin: 32px auto 0 auto;
+    }
+  }
+}

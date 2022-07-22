@@ -1,0 +1,36 @@
+@media screen and (max-width: 1024px) {
+  .knowledge {
+    padding: 32px 16px 36px 16px;
+
+    .content {
+      padding-top: 16px;
+    }
+
+    .more {
+      padding-top: 36px;
+    }
+
+    .list {
+      align-items: flex-start;
+
+      .item {
+        width: calc(100% / 2 - 10px);
+        display: none;
+
+        &:first-child,
+        &:nth-child(2) {
+          display: block;
+        }
+
+        .image {
+          height: 150px;
+          width: 100%;
+        }
+
+        .context {
+          margin-top: 18px;
+        }
+      }
+    }
+  }
+}

@@ -1,6 +1,17 @@
-@import '../color';
-@import 'pre-footer';
-@import 'knowledge';
-@import 'banner';
-@import 'sec-1';
-@import 'sec-2';
+@import "../color";
+
+.home {
+  @import "pre-footer";
+  @import "knowledge";
+  @import "banner";
+  @import "sec-1";
+  @import "sec-2";
+  
+  // responsive
+  @import "responsive/banner";
+  @import "responsive/sec-1";
+  @import "responsive/sec-2";
+  @import "responsive/knowledge";
+  @import "responsive/pre-footer";
+  // responsive
+}

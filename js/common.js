@@ -25,6 +25,25 @@ $(document).ready(() => {
   }
   // fixed header
 
+  // toggle responsive header
+  const $header = $("#main-header")
+  const $toggle = $header.find(".toggle-nav")
+  $toggle.on("click", function () {
+    $header.toggleClass("active")
+  })
+  // toggle responsive header
+
+  // toggle footer connect
+  const $connect = $(".connect-info")
+  const $toggleInfo = $connect.find(".title")
+  $toggleInfo.each(function () {
+    const $this = $(this)
+    $this.on("click", function () {
+      $this.closest(".connect").toggleClass("active")
+    })
+  })
+  // toggle footer connect
+
   // count up
   $(".count").each(function () {
     $(this)

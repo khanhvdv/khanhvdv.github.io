@@ -1,0 +1,17 @@
+@media screen and (max-width: 1024px) {
+  .banner {
+    padding: 11px 17px;
+    height: auto;
+
+    .owl-item,
+    .item {
+      height: 190px;
+    }
+
+    .owl-dots {
+      left: 33%;
+      transform: translateX(-25%);
+      bottom: 9px;
+    }
+  }
+}
