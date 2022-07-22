@@ -44,6 +44,13 @@ $(document).ready(() => {
   })
   // toggle footer connect
 
+  // toggle header search
+  const $searchToggle = $(".toggle-search");
+  $searchToggle.click(function() {
+    $(this).closest('.search').toggleClass('active')
+  })
+  // toggle header search
+
   // count up
   $(".count").each(function () {
     $(this)

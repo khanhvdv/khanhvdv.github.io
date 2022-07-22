@@ -2,10 +2,12 @@
   .banner {
     padding: 11px 17px;
     height: auto;
+    width: 100%;
 
     .owl-item,
     .item {
       height: 190px;
+      width: 100%;
     }
 
     .owl-dots {

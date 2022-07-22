@@ -26,7 +26,7 @@ $(document).ready(() => {
   $(".owl-banner").owlCarousel({
     loop: true,
     autoplay: true,
-    autoWidth: true,
+    autoWidth: false,
     items: 1,
     center: true,
     dots: true,
@@ -42,31 +42,8 @@ $(document).ready(() => {
       clickable: true,
     },
     autoplay: {
-      delay: 5000,
+      delay: 3000,
     },
     slidesPerView: 1,
   })
-
-  // const second = 500
-  // const div = $("div.comments")
-  // const dots = $(".dot-flashing")
-  // div.scrollTop(0)
-  // div.animate(
-  //   {
-  //     scrollTop: div.height(),
-  //   },
-  //   30 * second
-  // )
-  // div
-  //   .mouseenter(() => {
-  //     div.stop()
-  //   })
-  //   .mouseleave(() => {
-  //     div.animate(
-  //       {
-  //         scrollTop: div.height(),
-  //       },
-  //       30 * second
-  //     )
-  //   })
 })
