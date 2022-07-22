@@ -334,21 +334,16 @@
 
   .interactions {
     position: relative;
+    margin-right: -57px;
+    margin-left: 28px;
   }
 
   // comments
   .comments {
-    margin-left: 28px;
     margin-top: 30px;
-    margin-right: -57px;
     height: 802px;
-    overflow-y: auto;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-
-    &:-webkit-scrollbar {
-      display: none;
-    }
+    // transform: rotate(-90deg);
+    transform-origin: center center;
 
     // item
     .item {
@@ -408,60 +403,40 @@
   }
   // comments
 
-  // loading
-  .loading {
-    .stage {
-      margin: 32px -120px 0 auto;
-    }
+  // paging
+  .paging {
+    position: absolute;
+    bottom: -80px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
 
-    .dot-flashing {
-      position: relative;
-      width: 10px;
-      height: 10px;
-      border-radius: 5px;
-      background-color: $white;
-      color: $white;
-      animation: dotFlashing 1s infinite linear alternate;
-      animation-delay: 0.5s;
-      margin: 0 auto;
+    .custom-swiper-pagination {
+      transform: rotate(-90deg);
+      transform-origin: center;
+      display: inline-block;
+      position: static;
 
-      &:before,
-      &:after {
-        content: "";
-        display: inline-block;
-        position: absolute;
-        top: 0;
-      }
+      .swiper-pagination-bullet {
+        width: 12px;
+        height: 12px;
+        background: $white;
+        opacity: 1;
 
-      &:before {
-        left: -15px;
-        width: 10px;
-        height: 10px;
-        border-radius: 5px;
-        background-color: $white;
-        color: $white;
-        animation: dotFlashing 1s infinite alternate;
-        animation-delay: 0s;
-      }
-
-      &:after {
-        left: 15px;
-        width: 10px;
-        height: 10px;
-        border-radius: 5px;
-        background-color: $white;
-        color: $white;
-        animation: dotFlashing 1s infinite alternate;
-        animation-delay: 1s;
+        &.swiper-pagination-bullet-active {
+          background: $pink;
+        }
       }
     }
   }
-  // loading
+  // paging
 
   .x1 {
     animation: animateBubble 25s linear infinite,
       sideWays 2s ease-in-out infinite alternate;
-    left: -5%;
+    left: 5%;
     top: 5%;
     background-image: url("../../images/home/icon7.png");
   }
@@ -517,7 +492,7 @@
   .x9 {
     animation: animateBubble 29s linear infinite,
       sideWays 4s ease-in-out infinite alternate;
-    left: 90%;
+    left: 80%;
     top: 50%;
     background-image: url("../../images/home/icon9.png");
   }

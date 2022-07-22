@@ -1,5 +1,5 @@
 .banner {
-  width: 100%;
+  width: 1200px;
   height: 600px;
   overflow: hidden;
   margin: 0 auto;
@@ -50,5 +50,6 @@
 
   .owl-item {
     height: 600px;
+    width: 1200px !important;
   }
 }

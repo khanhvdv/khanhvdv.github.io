@@ -1,6 +1,6 @@
 @media screen and (max-width: 1024px) {
   .sec-2 {
-    padding: 33px 13px 28px 13px;
+    padding: 33px 13px 0 13px;
 
     .container {
       flex-direction: column;
@@ -113,9 +113,13 @@
       }
     }
 
-    .comments {
+    .interactions {
       margin-right: 0;
       margin-left: 0;
+    }
+
+    .comments {
+      height: 900px;
 
       .item {
         .content {
@@ -124,8 +128,8 @@
       }
     }
 
-    .loading .stage {
-      margin: 32px auto 0 auto;
+    .paging {
+      bottom: -10px;
     }
   }
 }

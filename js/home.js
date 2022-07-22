@@ -19,8 +19,8 @@ $(document).ready(() => {
       },
       640: {
         items: 3,
-      }
-    }
+      },
+    },
   })
 
   $(".owl-banner").owlCarousel({
@@ -35,24 +35,38 @@ $(document).ready(() => {
     margin: 0,
   })
 
-  const second = 500
-  const div = $("div.comments")
-  div.animate(
-    {
-      scrollTop: div.height(),
+  var swiper = new Swiper(".swiper", {
+    direction: "vertical",
+    pagination: {
+      el: ".custom-swiper-pagination",
+      clickable: true,
     },
-    30 * second
-  )
-  div
-    .mouseenter(() => {
-      div.stop()
-    })
-    .mouseleave(() => {
-      div.animate(
-        {
-          scrollTop: div.height(),
-        },
-        30 * second
-      )
-    })
+    autoplay: {
+      delay: 5000,
+    },
+    slidesPerView: 1,
+  })
+
+  // const second = 500
+  // const div = $("div.comments")
+  // const dots = $(".dot-flashing")
+  // div.scrollTop(0)
+  // div.animate(
+  //   {
+  //     scrollTop: div.height(),
+  //   },
+  //   30 * second
+  // )
+  // div
+  //   .mouseenter(() => {
+  //     div.stop()
+  //   })
+  //   .mouseleave(() => {
+  //     div.animate(
+  //       {
+  //         scrollTop: div.height(),
+  //       },
+  //       30 * second
+  //     )
+  //   })
 })
