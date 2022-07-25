@@ -45,11 +45,19 @@ $(document).ready(() => {
   // toggle footer connect
 
   // toggle header search
-  const $searchToggle = $(".toggle-search");
-  $searchToggle.click(function() {
-    $(this).closest('.search').toggleClass('active')
+  const $searchToggle = $(".toggle-search")
+  $searchToggle.click(function () {
+    $(this).closest(".search").toggleClass("active")
   })
   // toggle header search
+
+  // toggle lang
+  const $lang = $(".lang")
+  const $langToggle = $(".lang-toggle")
+  $langToggle.click(function () {
+    $(this).closest(".lang").toggleClass("active")
+  })
+  // toggle lang
 
   // count up
   $(".count").each(function () {

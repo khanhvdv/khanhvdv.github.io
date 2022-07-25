@@ -1,6 +1,6 @@
 @media screen and (max-width: 1024px) {
   .sec-2 {
-    padding: 33px 13px 0 13px;
+    padding: 33px 0 0 0;
     overflow: hidden;
 
     .container {
@@ -33,13 +33,15 @@
       .bub-1 {
         width: 137px;
         height: 141px;
-        top: 140px;
-        left: 0;
+        top: 148px;
+        left: -9px;
       }
 
       .bub-2 {
         width: 137px;
         height: 141px;
+        top: 180px;
+        right: 0;
       }
 
       .bub-3 {
@@ -52,15 +54,15 @@
       .bub-4 {
         width: 137px;
         height: 141px;
-        top: 268px;
-        left: 20%;
+        top: 284px;
+        left: 10%;
       }
 
       .bub-5 {
         width: 137px;
         height: 141px;
-        top: 318px;
-        right: 12px;
+        top: 337px;
+        right: -9px;
         left: auto;
       }
 
@@ -68,22 +70,32 @@
         width: 137px;
         height: 141px;
         left: 0;
-        top: 434px;
+        top: 423px;
       }
 
       .bub-8 {
-        left: 50%;
-        top: 40%;
+        left: 132px;
+        top: 190px;
       }
 
       .bub-9 {
-        left: auto;
-        right: 30%;
-        top: 45%;
+        left: 0;
+        right: auto;
+        top: 48%;
+      }
+
+      .bub-10 {
+        top: 48px;
       }
 
       .bub-11 {
-        right: 16%;
+        right: 0;
+        top: 0;
+      }
+
+      .bub-12 {
+        top: 0;
+        left: 0;
       }
 
       .bub-13 {
@@ -95,7 +107,12 @@
       }
 
       .bub-15 {
-        right: 35%;
+        right: 21%;
+        top: 84%;
+      }
+
+      .bub-16 {
+        top: 83%;
       }
 
       .bub-17 {
@@ -103,8 +120,8 @@
       }
 
       .bub-18 {
-        top: 70%;
-        left: 42%;
+        top: 68%;
+        left: 0;
       }
 
       .bub-19 {
@@ -120,11 +137,30 @@
     }
 
     .comments {
-      height: 900px;
+      height: 700px;
 
       .item {
+        .image {
+          width: 82px;
+          height: 123px;
+        }
+
         .content {
-          padding: 22px 25px 22px 113px;
+          padding: 16px 25px 16px 70px;
+          margin-left: -55px;
+        }
+
+        .name {
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 19px;
+          margin-bottom: 4px;
+        }
+
+        .des {
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 14px;
         }
       }
     }

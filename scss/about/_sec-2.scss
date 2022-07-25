@@ -4,6 +4,10 @@
     url("../../images/about/bg2.png") no-repeat top left / contain,
     rgba($pink, 0.1);
 
+  .sec-title {
+    font-size: 28px;
+  }
+
   // left
   .left {
     .des {
@@ -15,7 +19,6 @@
     }
 
     ul {
-
       li {
         margin-bottom: 31px;
         display: flex;

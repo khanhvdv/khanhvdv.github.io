@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>home</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./libs/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="libs/owlcarousel/owl.carousel.min.css" />
     <link rel="stylesheet" href="./css/common.css" />
@@ -14,6 +15,7 @@
       integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="./libs/swiper/swiper-bundle.min.js"></script>
     <script src="libs/owlcarousel/owl.carousel.min.js"></script>
     <script src="js/common.js"></script>
@@ -45,7 +47,7 @@
             </div>
             <div class="search">
               <div class="search-input">
-                <input type="text">
+                <input type="text" />
               </div>
               <div class="toggle-search">
                 <img src="./images/common/mag-glass.png" alt="Search" />
@@ -116,12 +118,13 @@
               </div>
 
               <div class="lang">
-                <select name="lang">
-                  <option value="1">Tiếng Việt</option>
-                  <option value="2">Tiếng 1</option>
-                  <option value="3">Tiếng 2</option>
-                  <option value="4">Tiếng 3</option>
-                </select>
+                <div class="selected lang-toggle">Tiếng Việt</div>
+                <div class="dropdown">
+                  <div>
+                    <div class="option active">Tiếng Việt</div>
+                    <div class="option">Tiếng Anh</div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -236,7 +239,7 @@
             <div class="right">
               <div class="content">
                 <!-- item -->
-                <div class="item">
+                <div data-aos="fade-up" class="item">
                   <div class="image">
                     <img src="images/home/icon1.png" alt="Icon 1" />
                   </div>
@@ -244,7 +247,7 @@
                 </div>
                 <!-- item -->
                 <!-- item -->
-                <div class="item">
+                <div data-aos="fade-up" class="item">
                   <div class="image">
                     <img src="images/home/icon2.png" alt="Icon 2" />
                   </div>
@@ -252,7 +255,7 @@
                 </div>
                 <!-- item -->
                 <!-- item -->
-                <div class="item">
+                <div data-aos="fade-up" class="item">
                   <div class="image">
                     <img src="images/home/icon3.png" alt="Icon 3" />
                   </div>
@@ -262,7 +265,7 @@
                 </div>
                 <!-- item -->
                 <!-- item -->
-                <div class="item">
+                <div data-aos="fade-up" class="item">
                   <div class="image">
                     <img src="images/home/icon4.png" alt="Icon 4" />
                   </div>
@@ -270,7 +273,7 @@
                 </div>
                 <!-- item -->
                 <!-- item -->
-                <div class="item">
+                <div data-aos="fade-up" class="item">
                   <div class="image">
                     <img src="images/home/icon5.png" alt="Icon 5" />
                   </div>
@@ -278,7 +281,7 @@
                 </div>
                 <!-- item -->
                 <!-- item -->
-                <div class="item">
+                <div data-aos="fade-up" class="item">
                   <div class="image">
                     <img src="images/home/icon6.png" alt="Icon 6" />
                   </div>

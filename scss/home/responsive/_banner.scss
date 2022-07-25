@@ -3,15 +3,17 @@
     padding: 11px 17px;
     height: auto;
     width: 100%;
+    min-width: 100%;
 
     .owl-item,
     .item {
-      height: 190px;
+      height: auto;
       width: 100%;
     }
 
     .owl-dots {
       position: relative;
+      top: -15px;
       margin: 0 auto;
       width: 100%;
       transform: none;

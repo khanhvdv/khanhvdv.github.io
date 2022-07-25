@@ -26,6 +26,10 @@
           background: url("../images/common/caret-down-w.png") no-repeat right
             10% center/6%;
 
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 19px;
+
           &:after {
             display: none;
           }
@@ -41,6 +45,11 @@
           ul {
             max-height: none;
           }
+        }
+
+        .social ul {
+          overflow: visible;
+          max-height: 32px;
         }
       }
     }
@@ -59,6 +68,5 @@
       }
     }
     // bottom
-
   }
 }

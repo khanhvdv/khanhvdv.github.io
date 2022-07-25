@@ -35,7 +35,7 @@
     // responsive-header
     .responsive-header {
       min-height: 39px;
-      
+
       .top {
         position: fixed;
         top: 0;
@@ -51,7 +51,7 @@
 
 .main-header {
   .container {
-    max-width: 1200px;
+    min-width: 1200px;
   }
 
   // top
@@ -131,12 +131,11 @@
 
     // lang
     .lang {
-      select {
-        -webkit-appearance: none;
-        -moz-appearance: none;
-        background: rgba(0, 0, 0, 0);
+      position: relative;
+
+      .selected {
         border: 0;
-        color: #033e8a;
+        color: $darkBlue;
         font-size: 12px;
         font-weight: 400;
         background-image: url("../images/common/caret-down.svg");
@@ -144,6 +143,48 @@
         background-size: 8px;
         background-position: right center;
         padding-right: 11px;
+        cursor: pointer;
+      }
+
+      &.active .dropdown {
+        display: block;
+      }
+
+      .dropdown {
+        position: absolute;
+        min-width: 135px;
+        right: 0;
+        z-index: 3;
+        padding-top: 17px;
+        display: none;
+
+        & > div {
+          border-radius: 8px;
+          background: $white;
+          box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.07);
+          padding: 24px 16px;
+          width: 100%;
+        }
+
+        .option {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 19px;
+          color: $blue;
+          text-align: right;
+          padding-bottom: 18px;
+          cursor: pointer;
+
+          &:last-child {
+            padding-bottom: 0;
+            padding-top: 18px;
+            border-top: 1px solid $gray7;
+          }
+
+          &.active {
+            color: $pink;
+          }
+        }
       }
     }
     // lang

@@ -10,6 +10,7 @@ $(document).ready(() => {
     smartSpeed: 6000,
     items: 5.5,
     dots: false,
+    rtl: true,
     responsive: {
       0: {
         items: 2,
@@ -35,7 +36,7 @@ $(document).ready(() => {
     margin: 0,
   })
 
-  var swiper = new Swiper(".swiper", {
+  new Swiper(".swiper", {
     direction: "vertical",
     pagination: {
       el: ".custom-swiper-pagination",

@@ -1,5 +1,13 @@
 @media screen and (max-width: 1024px) {
   .pre-footer {
     min-height: 150px;
+
+    .owl-carousel {
+      height: 150px;
+    }
+
+    .owl-item {
+      height: 150px;
+    }
   }
 }

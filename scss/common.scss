@@ -17,10 +17,45 @@ body {
 
 .container {
   width: 100%;
-  max-width: 1087px;
-  margin: 0 auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
   display: flex;
 }
+
+@media (min-width: 576px) {
+  /* line 6, node_modules/bootstrap/scss/_grid.scss */
+
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 6, node_modules/bootstrap/scss/_grid.scss */
+
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 6, node_modules/bootstrap/scss/_grid.scss */
+
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 6, node_modules/bootstrap/scss/_grid.scss */
+
+  .container {
+    max-width: 1140px;
+  }
+}
+
 
 .sec-title {
   font-weight: 500;
