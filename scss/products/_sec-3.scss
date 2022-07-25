@@ -12,11 +12,12 @@
     flex-wrap: wrap;
 
     .item {
-      width: calc(100% / 4 - 13px);
+      width: 192px;
       margin-bottom: 20px;
 
       .image {
         margin-bottom: 15px;
+        height: 192px;
       }
 
       label {
@@ -29,7 +30,7 @@
       }
 
       p {
-        font-weight: 700;
+        font-weight: 500;
         font-size: 16px;
         line-height: 19px;
         color: $black;

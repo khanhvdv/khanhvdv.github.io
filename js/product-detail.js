@@ -32,4 +32,6 @@ $(document).ready(() => {
       const currentIndex = e.relatedTarget["_current"]
       $productSlide.trigger("to.owl.carousel", currentIndex)
     })
+
+    $('.chocolat-parent').Chocolat();
 })
