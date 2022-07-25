@@ -2,8 +2,7 @@ $(document).ready(() => {
   $(".owl-prefooter").owlCarousel({
     loop: true,
     autoplay: true,
-    autoWidth: false,
-    autoheight: false,
+    autoWidth: true,
     margin: 16,
     slideTransition: "linear",
     autoplaySpeed: 6000,
@@ -42,6 +41,8 @@ $(document).ready(() => {
       el: ".custom-swiper-pagination",
       clickable: true,
     },
+    speed: 3000,
+    spaceBetween: 23,
     autoplay: {
       delay: 3000,
     },

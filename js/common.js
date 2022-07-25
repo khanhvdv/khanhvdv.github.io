@@ -2,7 +2,7 @@ $(document).ready(() => {
   // scroll effect
   if (typeof AOS !== "undefined") {
     AOS.init({
-      duration: 500,
+      duration: 1000,
       once: true,
     })
   }
