@@ -4,13 +4,12 @@ $(document).ready(() => {
 
   $productSlide
     .owlCarousel({
-      loop: true,
-      autoplay: true,
+      loop: false,
+      autoplay: false,
       autoWidth: false,
       items: 1,
       center: true,
       dots: true,
-      autoplayHoverPause: true,
     })
     .on("dragged.owl.carousel", function (e) {
       if (e.relatedTarget["_drag"]["direction"] == "left") {
@@ -22,10 +21,9 @@ $(document).ready(() => {
 
   $productDots
     .owlCarousel({
-      loop: true,
-      autoplay: true,
+      loop: false,
+      autoplay: false,
       autoWidth: false,
-      autoplayHoverPause: true,
       items: 4,
     })
     .on("changed.owl.carousel", function (e) {

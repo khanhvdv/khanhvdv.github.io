@@ -7,9 +7,13 @@ $(document).ready(() => {
     slideTransition: "linear",
     autoplaySpeed: 6000,
     smartSpeed: 6000,
-    items: 5.5,
     dots: false,
     rtl: true,
+    mouseDrag: false,
+    touchDrag: false,
+    pullDrag: false,
+    freeDrag: false,
+    center: true,
     responsive: {
       0: {
         items: 2,
@@ -47,5 +51,6 @@ $(document).ready(() => {
       delay: 3000,
     },
     slidesPerView: 1,
+    loop: true,
   })
 })

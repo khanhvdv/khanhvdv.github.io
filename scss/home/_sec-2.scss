@@ -341,9 +341,7 @@
   // comments
   .comments {
     margin-top: 30px;
-    height: 802px;
-    // transform: rotate(-90deg);
-    transform-origin: center center;
+    height: 826px;
 
     // item
     .item {
@@ -382,6 +380,7 @@
         line-height: 26px;
         font-weight: 400;
         color: $pink;
+        margin-bottom: 8px;
       }
 
       .date {

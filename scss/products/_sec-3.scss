@@ -17,6 +17,11 @@
 
       .image {
         margin-bottom: 15px;
+        overflow: hidden;
+
+        img {
+          transform: scale(110%);
+        }
       }
 
       label {
