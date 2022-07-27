@@ -1,5 +1,4 @@
 .sec-1 {
-
   // sub-nav
   .sub-nav {
     margin-bottom: 4px;
@@ -58,7 +57,7 @@
       transition: all ease 0.5s;
 
       li {
-        padding: 6px 10px;
+        padding: 10px 10px;
         border-bottom: 1px solid $gray4;
 
         &.active {
@@ -69,7 +68,6 @@
       }
 
       a {
-        font-weight: 500;
         font-size: 14px;
         line-height: 17px;
         color: $gray1;
