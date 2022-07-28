@@ -24,40 +24,59 @@
 
     // inner-left
     .inner-left {
-      .product-carousel {
-        .image {
-          height: 350px;
+      .main-image {
+        width: 350px;
+        height: 350px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 8px;
+
+        img {
+          flex-shrink: 0;
         }
       }
 
-      .product-dots {
+      .fake-slide {
         position: relative;
-        .image {
-          width: 80px;
-          height: 80px;
-          border: 2px solid transparent;
+
+        & > * {
+          cursor: pointer;
         }
 
-        .current-active {
-          .image {
-            border-color: $black;
-          }
-        }
-
-        .dots-remain {
-          position: absolute;
-          right: 0px;
-          top: 2px;
-          width: 78px;
-          height: 78px;
-          display: flex;
+        .remain {
+          display: none;
           justify-content: center;
-          color: $white;
+          align-items: center;
+          color: #fff;
           font-weight: 500;
           font-size: 32px;
           line-height: 38px;
           background: rgba(#4e4e4e, 0.64);
-          z-index: 5;
+          position: absolute;
+          width: 81px;
+          height: 81px;
+          top: 0;
+          right: 0;
+        }
+
+        .content {
+          display: flex;
+          justify-content: space-between;
+        }
+
+        .item {
+          width: calc(100% / 4);
+          height: 81px;
+          flex-shrink: 0;
+          justify-content: center;
+          display: none;
+
+          &:first-child,
+          &:nth-child(2),
+          &:nth-child(3),
+          &:nth-child(4) {
+            display: flex;
+          }
         }
       }
     }

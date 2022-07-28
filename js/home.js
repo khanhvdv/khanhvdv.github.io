@@ -1,9 +1,10 @@
 $(document).ready(() => {
   $(".owl-prefooter").owlCarousel({
     loop: true,
+    rewind: false,
     autoplay: true,
     autoWidth: true,
-    margin: 16,
+    margin: 0,
     slideTransition: "linear",
     autoplaySpeed: 6000,
     smartSpeed: 6000,
@@ -13,7 +14,6 @@ $(document).ready(() => {
     touchDrag: false,
     pullDrag: false,
     freeDrag: false,
-    center: true,
     responsive: {
       0: {
         items: 2,
