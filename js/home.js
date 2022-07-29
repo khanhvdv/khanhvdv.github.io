@@ -23,9 +23,8 @@ $(document).ready(() => {
       clickable: true,
     },
     speed: 3000,
-    spaceBetween: 23,
     autoplay: {
-      delay: 3000,
+      delay: 50000,
     },
     slidesPerView: 1,
     loop: true,

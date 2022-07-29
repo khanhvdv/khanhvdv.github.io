@@ -139,6 +139,10 @@
     .comments {
       height: 700px;
 
+      .swiper-slide {
+        margin-bottom: 0;
+      }
+
       .item {
         .image {
           width: 82px;
