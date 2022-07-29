@@ -1,0 +1,14 @@
+.flashy-overlay {
+  background: rgba($black, 0.5);
+}
+
+.flashy-content-outer,
+.flashy-content-inner {
+  max-height: 100vh;
+}
+
+.flashy-content {
+  img {
+    max-height: 90vh;
+  }
+}

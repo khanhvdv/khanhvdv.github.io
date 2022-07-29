@@ -24,18 +24,9 @@
     bottom: 19px;
   }
 
-  .owl-carousel {
-    height: 246px;
-  }
-
-  .owl-item {
-    // width: 240px !important;
-    // height: 246px;
+  .item {
+    margin-right: 16px;
     border-radius: 8px;
     overflow: hidden;
-    
-    .item {
-      height: 246px;
-    }
   }
 }

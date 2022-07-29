@@ -13,9 +13,14 @@ $(document).ready(function () {
     $remain.text("+" + delta)
   }
 
+  // fake item click when click on remain number
   $remain.click(function () {
     $item.first().click()
   })
+  $main.click(function () {
+    $item.first().click()
+  })
+  // fake item click when click on remain number
 
   // set default main image
   const firstType = $item.first().children().prop("tagName").toLowerCase()
@@ -44,7 +49,6 @@ $(document).ready(function () {
     // update main slide image on hover
     $this.on("mouseover", function () {
       const src = $(this).children().first().attr("src")
-      $main.attr("href", src)
       if (itemType === "img") {
         $mainImage.show()
         $mainImage.attr("src", src)
@@ -59,5 +63,4 @@ $(document).ready(function () {
   })
 
   $(".item").flashy()
-  $main.flashy()
 })
