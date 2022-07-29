@@ -134,14 +134,11 @@
     .interactions {
       margin-right: 0;
       margin-left: 0;
+      padding-bottom: 60px;
     }
 
     .comments {
-      height: 700px;
-
-      .swiper-slide {
-        margin-bottom: 0;
-      }
+      height: auto;
 
       .item {
         .image {
