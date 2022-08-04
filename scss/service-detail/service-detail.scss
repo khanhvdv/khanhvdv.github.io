@@ -22,4 +22,20 @@
 
   @import "sec-1";
   @import "sec-2";
+
+  // responsive
+  @media screen and (max-width: 1024px) {
+    .container {
+      flex-direction: column-reverse;
+    }
+
+    .left,
+    .right {
+      width: 100%;
+      margin: 0;
+    }
+  }
+  @import "./responsive/sec-1";
+  @import "./responsive/sec-2";
+  // responsive
 }

@@ -6,4 +6,17 @@
   @import "sec-3";
   @import "sec-4";
   @import "sec-5";
+
+  // responsive
+  @media screen and (max-width: 1024px) {
+    .container {
+      flex-direction: column;
+    }
+  }
+  @import "./responsive/sec-1";
+  @import "./responsive/sec-2";
+  @import "./responsive/sec-3";
+  @import "./responsive/sec-4";
+  @import "./responsive/sec-5";
+  // responsive
 }

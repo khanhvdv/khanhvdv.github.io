@@ -42,6 +42,11 @@
 
       &:last-child {
         padding-right: 0;
+        max-width: 300px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        color: $white;
 
         &:after {
           display: none;

@@ -15,4 +15,16 @@
 
   @import "sec-1";
   @import "sec-2";
+
+  // responsive
+  @media screen and (max-width: 1024px) {
+    padding: 30px 0;
+
+    .container {
+      flex-direction: column;
+    }
+  }
+  @import "./responsive/sec-1";
+  @import "./responsive/sec-2";
+  // responsive
 }

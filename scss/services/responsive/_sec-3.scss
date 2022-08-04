@@ -1,0 +1,16 @@
+@media screen and (max-width: 1024px) {
+  .sec-3 {
+    padding: 30px 0 0;
+
+    ul {
+      .image {
+        flex-shrink: 0;
+      }
+
+      li {
+        width: 100%;
+        margin-bottom: 30px;
+      }
+    }
+  }
+}

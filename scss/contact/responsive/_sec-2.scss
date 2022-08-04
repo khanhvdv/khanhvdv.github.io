@@ -1,0 +1,36 @@
+@media screen and (max-width: 1024px) {
+  .sec-2 {
+    padding: 30px 0;
+    
+    .container {
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+    
+    .left {
+      width: 100%;
+
+      .info {
+        margin-top: 30px;
+
+        li {
+          margin-bottom: 30px;
+        }
+      }
+      
+      .social {
+        margin-bottom: 30px;
+      }
+    }
+
+    .right {
+      width: 100%;
+
+      .form {
+        min-width: auto;
+        padding: 30px 15px;
+        width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+@media screen and (max-width: 1024px) {
+  .breadcrumb {
+    .inner {
+      max-width: 100%;
+      height: auto;
+      padding: 15px;
+      display: block;
+    }
+
+    .page {
+      font-size: 16px;
+      flex-shrink: 0;
+    }
+
+    a {
+      font-size: 14px;
+    }
+
+    .nav li:last-child {
+      max-width: 100px;
+    }
+  }
+}

@@ -12,4 +12,13 @@
   }
 
   @import "sec-1";
+
+  // responsive
+  @media screen and (max-width: 1024px) {
+    .sec-title {
+      margin-top: 30px;
+    }
+  }
+  @import "./responsive/sec-1";
+  // responsive
 }

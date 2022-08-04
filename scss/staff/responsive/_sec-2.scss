@@ -1,0 +1,14 @@
+@media screen and (max-width: 1024px) {
+  .sec-2 {
+    .list {
+      .item {
+        width: calc(100% / 2 - 11px);
+        margin-bottom: 0;
+      }
+    }
+
+    .paging {
+      margin-top: 30px;
+    }
+  }
+}
