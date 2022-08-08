@@ -51,12 +51,14 @@
 }
 
 @mixin pinkBg() {
-  background: url("../../images/about/bg1.png") no-repeat top right / contain,
-    url("../../images/about/bg2.png") no-repeat top left / contain,
+  background: url("../../images/common/bg1.png") no-repeat top right / contain,
+    url("../../images/common/bg2.png") no-repeat bottom left / contain,
     rgba($pink, 0.1);
 
   @media screen and (max-width: 1024px) {
-    background-size: 50%;
+    background: url("../../images/common/bg3.png") no-repeat top right / 50%,
+    url("../../images/common/bg2.png") no-repeat bottom left / 50%,
+    rgba($pink, 0.1);
   }
 }
 
