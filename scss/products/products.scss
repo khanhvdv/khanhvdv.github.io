@@ -20,13 +20,14 @@
   @import "sec-1";
   @import "sec-2";
   @import "sec-3";
+  @import "sec-4";
 
   // responsive
   @media screen and (max-width: 1024px) {
     padding: 30px 0 15px 0;
 
     .container {
-      flex-direction: column-reverse;
+      flex-direction: column;
     }
 
     .left,
@@ -38,5 +39,6 @@
   @import "./responsive/sec-1";
   @import "./responsive/sec-2";
   @import "./responsive/sec-3";
+  @import "./responsive/sec-4";
   // responsive
 }

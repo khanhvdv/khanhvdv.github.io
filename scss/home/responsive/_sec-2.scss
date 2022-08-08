@@ -3,6 +3,12 @@
     padding: 33px 0 0 0;
     overflow: hidden;
 
+    .sec-title,
+    .sub-title {
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+
     .container {
       flex-direction: column;
     }

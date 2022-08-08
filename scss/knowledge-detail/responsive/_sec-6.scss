@@ -1,9 +1,13 @@
 @media screen and (max-width: 1024px) {
-  .sec-1 {
+  .sec-6 {
+    display: block;
+    margin-bottom: 24px;
+    @include sideCategories();
+
     ul {
       max-height: 0;
       overflow: hidden;
-      transition: all ease 0.5s;
+      transition: all ease .5s;
 
       &.active {
         max-height: 100%;

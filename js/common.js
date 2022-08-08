@@ -40,7 +40,7 @@ $(document).ready(() => {
   $toggleInfo.each(function () {
     const $this = $(this)
     $this.on("click", function () {
-      $this.closest(".connect").toggleClass("active")
+      $this.closest(".collapse").toggleClass("active")
     })
   })
   // toggle footer connect

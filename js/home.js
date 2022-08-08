@@ -14,6 +14,10 @@ $(document).ready(() => {
     autoplayHoverPause: true,
     stagePadding: 0,
     margin: 0,
+    touchDrag: false,
+    mouseDrag: false,
+    pullDrag: false,
+    freeDrag: false,
   })
 
   new Swiper(".swiper", {

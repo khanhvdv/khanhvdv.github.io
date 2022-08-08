@@ -1,7 +1,5 @@
 .sec-2 {
-  background: url("../../images/about/bg1.png") no-repeat top right / contain,
-    url("../../images/about/bg2.png") no-repeat top left / contain,
-    rgba($pink, 0.1);
+  @include pinkBg();
   padding: 76px 0 89px 0;
 
   .container {

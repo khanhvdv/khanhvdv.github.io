@@ -1,8 +1,8 @@
+@import "../mixin";
+
 .sec-2 {
   padding: 65px 0 57px 0;
-  background: url("../../images/about/bg1.png") no-repeat top right / contain,
-    url("../../images/about/bg2.png") no-repeat top left / contain,
-    rgba($pink, 0.1);
+  @include pinkBg();
 
   .sec-title {
     font-size: 28px;

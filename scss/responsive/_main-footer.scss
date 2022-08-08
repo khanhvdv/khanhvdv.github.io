@@ -7,14 +7,13 @@
       }
 
       .footer-logo {
-        width: 127px;
-        height: 123px;
-        margin-right: 31px;
+        width: 100px;
+        margin-right: 15px;
       }
 
       .connect-info {
         flex-direction: column;
-        width: calc(100% - 127px - 31px);
+        width: calc(100% - 100px - 15px);
       }
 
       .connect {
@@ -35,21 +34,23 @@
           }
         }
 
-        ul {
-          overflow: hidden;
-          max-height: 0;
-          transition: all ease 0.5s;
-        }
-
-        &.active {
+        &.collapse {
           ul {
-            max-height: none;
+            overflow: hidden;
+            max-height: 0;
+            transition: all ease 0.5s;
           }
-        }
 
-        .social ul {
-          overflow: visible;
-          max-height: 32px;
+          &.social ul {
+            overflow: visible;
+            max-height: 32px;
+          }
+
+          &.active {
+            ul {
+              max-height: none;
+            }
+          }
         }
       }
     }
