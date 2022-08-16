@@ -1,0 +1,46 @@
+/* .content-inside{
+    white-space: pre-line;
+} */
+
+.knowledge-detail .sec-1 .content .content-inside h1,
+.knowledge-detail .sec-1 .content .content-inside h2,
+.knowledge-detail .sec-1 .content .content-inside h3,
+.knowledge-detail .sec-1 .content .content-inside h4,
+.knowledge-detail .sec-1 .content .content-inside h5,
+.knowledge-detail .sec-1 .content .content-inside h6{
+    margin-bottom: 15px;
+}
+
+.knowledge-detail .sec-1 .content .content-inside p{
+    line-height: 1.8em;
+    margin-bottom: 15px;
+}
+
+.knowledge-detail .sec-1 .content .content-inside ul{
+    padding: 10px 0 10px 30px;
+}
+
+.knowledge-detail .sec-1 .content .content-inside li{
+    line-height: 1.8em;
+    background: none;
+    padding-left: 10px;
+    position: relative;
+}
+
+.knowledge-detail .sec-1 .content .content-inside li::before{
+    content: "";
+    position: absolute;
+    left: -10px;
+    top: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #000;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .content-inside{
+        font-size: 14px;
+    }
+}

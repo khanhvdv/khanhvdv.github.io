@@ -1,1 +1,96 @@
-.staff-detail{padding:52px 0 35px 0}.staff-detail .left{width:348px;margin-right:20px;flex-shrink:0}.staff-detail .container{align-items:flex-start}.staff-detail .sec-2 .sec-title{margin-bottom:24px}.staff-detail .sec-2 b{font-weight:700;font-size:16px;line-height:19px;color:#4e4e4e;display:block;margin-bottom:24px}.staff-detail .sec-2 button{background:#ffafcc;color:#fff;border:0;border-radius:8px;display:flex;justify-content:center;width:194px;height:52px;cursor:pointer;font-weight:500;font-size:16px;line-height:19px;margin-bottom:31px}.staff-detail .sec-2 button span{display:inline-block;width:24px;height:24px;margin-right:10px}.staff-detail .sec-2 .des{display:flex;justify-content:flex-start;align-items:flex-start;margin-bottom:21px}.staff-detail .sec-2 .des .icon{width:24px;height:24px;margin-right:14px;flex-shrink:0}.staff-detail .sec-2 .des p{font-weight:500;font-size:22px;line-height:26px;color:#033e8a;margin-bottom:16px}.staff-detail .sec-2 .des span{display:block;font-weight:400;font-size:16px;line-height:20px;color:#000;margin-bottom:11px}@media screen and (max-width: 1024px){.staff-detail{padding:30px 0}.staff-detail .container{flex-direction:column}}@media screen and (max-width: 1024px){.staff-detail .sec-1 .image{margin-bottom:30px}}
+.staff-detail {
+    padding: 52px 0 35px 0
+}
+
+.staff-detail .left {
+    width: 348px;
+    margin-right: 20px;
+    flex-shrink: 0
+}
+
+.staff-detail .container {
+    align-items: flex-start
+}
+
+.staff-detail .sec-2 .sec-title {
+    margin-bottom: 24px
+}
+
+.staff-detail .sec-2 b {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #4e4e4e;
+    display: block;
+    margin-bottom: 24px
+}
+
+.staff-detail .sec-2 .button {
+    background: #ffafcc;
+    color: #fff;
+    border: 0;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    width: 194px;
+    height: 52px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 31px
+}
+
+.staff-detail .sec-2 .button span {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-right: 10px
+}
+
+.staff-detail .sec-2 .des {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 21px
+}
+
+.staff-detail .sec-2 .des .icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 14px;
+    flex-shrink: 0
+}
+
+.staff-detail .sec-2 .des p {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: #033e8a;
+    margin-bottom: 16px
+}
+
+.staff-detail .sec-2 .des span {
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000;
+    margin-bottom: 11px
+}
+
+@media screen and (max-width: 1024px) {
+    .staff-detail {
+        padding: 30px 0
+    }
+
+    .staff-detail .container {
+        flex-direction: column
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .staff-detail .sec-1 .image {
+        margin-bottom: 30px
+    }
+}
