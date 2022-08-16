@@ -183,4 +183,9 @@
     .products .sec-4 {
         display: block
     }
+
+    .products .sec-4 .image {
+        max-width: 300px;
+        margin: 0 auto;
+    }
 }

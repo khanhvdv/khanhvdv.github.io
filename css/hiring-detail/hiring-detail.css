@@ -204,6 +204,15 @@
     .hiring-detail {
         padding-bottom: 0
     }
+
+    .hiring-detail .sec-1 .list {
+        padding: 16px;
+    }
+
+    .hiring-detail .sec-1 .list .item {
+        line-height: 26px;
+        margin-bottom: 5px;
+    }
 }
 
 @media screen and (max-width: 1024px) {
@@ -212,6 +221,6 @@
     }
 
     .hiring-detail .sec-2 ul li {
-        width: calc(50% - 20px)
+        width: 100%;
     }
 }

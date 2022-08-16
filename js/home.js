@@ -42,6 +42,7 @@ $(document).ready(() => {
         setSlideHeight(this)
       },
     },
+    allowTouchMove: false,
   })
 
   function setSlideHeight(that) {
