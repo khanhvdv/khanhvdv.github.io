@@ -9,17 +9,12 @@
     <link rel="stylesheet" href="./css/common.css" />
     <link rel="stylesheet" href="./css/contact/contact.css" />
     <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
-      defer
-    ></script>
-    <script
       src="https://code.jquery.com/jquery-3.6.0.min.js"
       integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
       crossorigin="anonymous"
     ></script>
     <script src="./libs/aos/aos.js"></script>
     <script src="js/common.js"></script>
-    <script src="js/contact.js"></script>
   </head>
   <body>
     <div class="wrapper">
@@ -253,7 +248,15 @@
 
         <!-- sec-3 -->
         <div class="sec-3">
-          <div id="map" class="map" data-aos="fade-up" data-aos-delay="300"></div>
+          <div class="map" data-aos="fade-up" data-aos-delay="300">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.523432255924!2d106.68435221523606!3d10.771164262235082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f07b3a24645%3A0x8190331668205de4!2zVMOyYSBuaMOgIEhNIFRvd24!5e0!3m2!1sen!2s!4v1660841214091!5m2!1sen!2s"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
         </div>
         <!-- sec-3 -->
       </div>
