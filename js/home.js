@@ -30,7 +30,7 @@ $(document).ready(() => {
     spaceBetween: 23,
     speed: 3000,
     autoplay: {
-      delay: 3000,
+      delay: 50000,
     },
     slidesPerView: 1,
     loop: true,
@@ -39,7 +39,7 @@ $(document).ready(() => {
         setSlideHeight(this)
       },
       slideChangeTransitionEnd: function () {
-        setSlideHeight(this)
+        // setSlideHeight(this)
       },
     },
     allowTouchMove: false,
